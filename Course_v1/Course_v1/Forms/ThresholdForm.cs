@@ -12,15 +12,6 @@ namespace Course_v1
 {
     public partial class ThresholdForm : MetroFramework.Forms.MetroForm
     {
-
-        Limit limit;
-        //if true - absolute, else - percentage
-        private bool flagCPU;
-        private bool flagRAM;
-        private bool flagTCPU;
-        private bool flagTMobo;
-        private bool flagVoltage;
-
         public ThresholdForm()
         {
             InitializeComponent();
@@ -28,122 +19,169 @@ namespace Course_v1
 
         private void Threshold_Load(object sender, EventArgs e)
         {
-            limit = new Limit();
-            flagCPU = false;
-            flagRAM = false;
-            flagTCPU = false;
-            flagTMobo = false;
-            flagVoltage = false;
+        }
+
+        private void ErrorMessage(string s)
+        {
+            MyMessageBox.ShowMessage(s,
+            "Message error",
+            MessageBoxButtons.OK);
+        }
+
+        private void btSTimer_Click(object sender, EventArgs e)
+        {
+
+            if (tbTimer.Text.Length > 0)
+            {
+              Limit.isAlive = true;
+              Limit.lTime = int.Parse(tbTimer.Text.ToString());
+              Limit.Time = Limit.lTime;
+            }
+            else
+            {
+                Limit.lTime = 100;
+                Limit.Time = Limit.lTime;
+            }
+
+            if (tbCPU.Text.Length > 0)
+            {
+                Limit.isAlive = true;
+                if (Limit.isAbsoluteCPU)
+                {
+                    Limit.lCPU = float.Parse(tbCPU.Text.ToString());
+                }
+                else
+                {
+                    Limit.lCPU = float.Parse(tbCPU.Text.ToString());
+                }
+            }
+
+            if (tbRAM.Text.Length > 0)
+            {
+                Limit.isAlive = true;
+                if (Limit.isAbsoluteRAM)
+                {
+                    Limit.lRAM = float.Parse(tbRAM.Text.ToString());
+                }
+                else
+                {
+                    Limit.lCPU = float.Parse(tbCPU.Text.ToString());
+                }
+            }
+
+            if (tbTCPU.Text.Length > 0)
+            {
+                Limit.isAlive = true;
+                if (Limit.isAbsoluteTCPU)
+                {
+                    Limit.lTCPU = float.Parse(tbTCPU.Text.ToString());
+                }
+                else
+                {
+                    Limit.lCPU = float.Parse(tbCPU.Text.ToString());
+                }
+            }
+
+            if (tbTMOBO.Text.Length > 0)
+            {
+                Limit.isAlive = true;
+                if (Limit.isAbsoluteTMobo)
+                {
+                    Limit.lTMobo = double.Parse(tbTMOBO.Text.ToString());
+                }
+                else
+                {
+                    Limit.lCPU = float.Parse(tbCPU.Text.ToString());
+                }
+            }
+
+            if (tbVOLTAGE.Text.Length > 0)
+            {
+                Limit.isAlive = true;
+                if (Limit.isAbsoluteVoltage)
+                {
+                    Limit.lVoltage = float.Parse(tbVOLTAGE.Text.ToString());
+                }
+                else
+                {
+                    Limit.lCPU = float.Parse(tbCPU.Text.ToString());
+                }
+            }
         }
 
         private void btSCPU_Click(object sender, EventArgs e)
         {
-            if (flagCPU == false)
-            {
-                limit.lCPU = float.Parse(tbCPU.Text);
-            }
-            else
-            {
-                limit.lCPU = float.Parse(tbCPU.Text) % 101;
-            }
+          
         }
 
         private void btSRAM_Click(object sender, EventArgs e)
         {
-            if (flagRAM == false)
-            {
-                limit.lRAM = float.Parse(tbRAM.Text);
-            }
-            else
-            {
-                limit.lRAM = float.Parse(tbRAM.Text) % 101;
-            }
+         
         }
 
         private void btSTCPU_Click(object sender, EventArgs e)
         {
-            if (flagTCPU == false)
-            {
-                limit.lTCPU = float.Parse(tbTCPU.Text);
-            }
-            else
-            {
-                limit.lTCPU = float.Parse(tbTCPU.Text) % 101;
-            }
+         
         }
 
         private void btSMOBO_Click(object sender, EventArgs e)
         {
-            if (flagTMobo == false)
-            {
-                limit.lTMobo = double.Parse(tbTMOBO.Text);
-            }
-            else
-            {
-                limit.lTMobo = double.Parse(tbTMOBO.Text) % 101;
-            }
+         
         }
 
         private void btSVOLTAGE_Click(object sender, EventArgs e)
         {
-            if (flagVoltage == false)
-            {
-                limit.lVoltage = float.Parse(tbVOLTAGE.Text);
-            }
-            else
-            {
-                limit.lVoltage = float.Parse(tbVOLTAGE.Text) % 101;
-            }
+          
         }
 
         private void rbtA_CPU_CheckedChanged(object sender, EventArgs e)
         {
-            flagCPU = false;
+            Limit.isAbsoluteCPU = false;
         }
 
         private void rbtP_CPU_CheckedChanged(object sender, EventArgs e)
         {
-            flagCPU = true;
+            Limit.isAbsoluteCPU = true;
         }
 
         private void rbtA_RAM_CheckedChanged(object sender, EventArgs e)
         {
-            flagRAM = false;
+            Limit.isAbsoluteRAM = false;
         }
 
         private void rbtP_RAM_CheckedChanged(object sender, EventArgs e)
         {
-            flagRAM = true;
+            Limit.isAbsoluteRAM = true;
         }
 
         private void rbtA_TCPU_CheckedChanged(object sender, EventArgs e)
         {
-            flagTCPU = false;
+            Limit.isAbsoluteTCPU = false;
         }
 
         private void rbtP_TCPU_CheckedChanged(object sender, EventArgs e)
         {
-            flagTCPU = true;
+            Limit.isAbsoluteTCPU = true;
         }
 
         private void rbtA_TMOBO_CheckedChanged(object sender, EventArgs e)
         {
-            flagTMobo = false;
+            Limit.isAbsoluteTMobo = false;
         }
 
         private void rbtP_TMOBO_CheckedChanged(object sender, EventArgs e)
         {
-            flagTMobo = true;
+            Limit.isAbsoluteTMobo = true;
         }
 
         private void rbtA_VOLTAGE_CheckedChanged(object sender, EventArgs e)
         {
-            flagVoltage = false;
+            Limit.isAbsoluteVoltage = false;
         }
 
         private void rbtP_VOLTAGE_CheckedChanged(object sender, EventArgs e)
         {
-            flagVoltage = true;
+            Limit.isAbsoluteVoltage = true;
         }
     }
 }

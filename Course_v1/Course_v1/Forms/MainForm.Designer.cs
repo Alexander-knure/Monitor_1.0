@@ -62,6 +62,7 @@
             this.btSetThreshold = new MetroFramework.Controls.MetroButton();
             this.btTimer = new MetroFramework.Controls.MetroButton();
             this.cVOLTAGE = new System.Diagnostics.PerformanceCounter();
+            this.lbThreshold = new MetroFramework.Controls.MetroLabel();
             ((System.ComponentModel.ISupportInitialize)(this.cCPU)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cRAM)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainChart)).BeginInit();
@@ -83,7 +84,7 @@
             // cTimer
             // 
             this.cTimer.Enabled = true;
-            this.cTimer.Interval = 200;
+            this.cTimer.Interval = 500;
             this.cTimer.Tick += new System.EventHandler(this.cTimer_Tick);
             // 
             // pbCPU
@@ -489,11 +490,26 @@
             this.cVOLTAGE.CounterName = "Питание";
             this.cVOLTAGE.InstanceName = "_Total";
             // 
+            // lbThreshold
+            // 
+            this.lbThreshold.AutoSize = true;
+            this.lbThreshold.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.lbThreshold.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.lbThreshold.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.lbThreshold.ForeColor = System.Drawing.Color.White;
+            this.lbThreshold.Location = new System.Drawing.Point(265, 20);
+            this.lbThreshold.Name = "lbThreshold";
+            this.lbThreshold.Size = new System.Drawing.Size(0, 0);
+            this.lbThreshold.TabIndex = 27;
+            this.lbThreshold.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.lbThreshold.UseCustomForeColor = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(720, 750);
+            this.Controls.Add(this.lbThreshold);
             this.Controls.Add(this.btTimer);
             this.Controls.Add(this.btSetThreshold);
             this.Controls.Add(this.btSave);
@@ -521,7 +537,7 @@
             this.Padding = new System.Windows.Forms.Padding(20, 60, 20, 19);
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Style = MetroFramework.MetroColorStyle.Black;
-            this.Text = "Monitor v0.8";
+            this.Text = "Monitor v0.9";
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cCPU)).EndInit();
@@ -561,6 +577,7 @@
         private MetroFramework.Controls.MetroButton btSetThreshold;
         private MetroFramework.Controls.MetroButton btTimer;
         private System.Diagnostics.PerformanceCounter cVOLTAGE;
+        private MetroFramework.Controls.MetroLabel lbThreshold;
     }
 }
 

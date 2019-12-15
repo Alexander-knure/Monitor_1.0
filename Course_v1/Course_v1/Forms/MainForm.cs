@@ -21,11 +21,12 @@ namespace Course_v1
         ThresholdForm tForm;
         InfoForm iForm;
 
-        int timer;
-
+        static int timer;
+        bool flagInfo;
+        int timerinfo;
         ManagementObjectSearcher searcherTemp = new ManagementObjectSearcher(@"root\WMI", "SELECT * FROM MSAcpi_ThermalZoneTemperature");
         double temperatureCPU = 0.0d;
-
+        
         //ManagementObjectSearcher searcherVoltage = new ManagementObjectSearcher(@"root\CIMV2", "SELECT * FROM Win32_Battery");
         ManagementObjectSearcher searcherVoltage = new ManagementObjectSearcher(@"root\CIMV2", "SELECT * FROM Win32_Processor ");
         double voltage = 0.0d;
@@ -38,6 +39,8 @@ namespace Course_v1
         private void MainForm_Load(object sender, EventArgs e)
         {
             statList = new StatisticList();
+
+            flagInfo = false;
             timer = 0;
         }
 
@@ -60,13 +63,55 @@ namespace Course_v1
                     temperatureCPU = Convert.ToDouble(mo["CurrentTemperature"].ToString());
                     temperatureCPU = (temperatureCPU - 2732) / 10.0d;
                 }
-                s.TMobo = temperatureCPU;
+                s.TMobo = temperatureCPU - 5;
                 //foreach (var mo in searcherVoltage.Get())
                 //{
                 //        // voltage = Convert.ToDouble(mo["DesignVoltage"].ToString()) / 1000;
                 //        voltage = Convert.ToDouble(mo["CurrentVoltage"].ToString()) / 1000;
                 //    }
                 s.Voltage = voltage;
+
+
+                if (Limit.isAlive == true)
+                {
+                    if ( Limit.lCPU <= s.CPU && Limit.lRAM <= s.RAM && Limit.lTCPU <= s.TCPU && 
+                        Limit.lTMobo <= s.TMobo && Limit.lVoltage <= s.Voltage && Limit.Time <= 0)
+                    {
+                        timerinfo = 10000; //10.000 sec
+                        lbThreshold.BackColor = Color.Red;
+                        lbThreshold.Text = Convert.ToString("Threshold is load:" + Limit.lTime + " " +
+                            Limit.lCPU + " " + Limit.lRAM + " " + Limit.lTCPU + " " + Limit.lTMobo + " " +
+                            Limit.lVoltage + " ");
+                        flagInfo = true;
+                        Limit.Clear();
+                    }
+                    if(Limit.lCPU <= s.CPU && Limit.lRAM <= s.RAM && Limit.lTCPU <= s.TCPU &&
+                        Limit.lTMobo <= s.TMobo && Limit.lVoltage <= s.Voltage && Limit.Time > 0)
+                    {
+                        Limit.Time -= cTimer.Interval;
+                   }
+                    if (Limit.lCPU > s.CPU || Limit.lRAM > s.RAM || Limit.lTCPU > s.TCPU ||
+                        Limit.lTMobo > s.TMobo || Limit.lVoltage > s.Voltage)
+                    {
+
+                        Limit.Time = Limit.lTime;
+                    }
+
+                    //MainChart.Series.Add("limit");
+                    //MainChart.Series["limit"].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine;
+                    //MainChart.Series["limit"].Color = Color.Indigo;
+                    //MainChart.Series["limit"].Points.AddY(Limit.lCPU);
+                }
+                if(flagInfo)
+                {
+                    timerinfo -= cTimer.Interval;
+                    if(timerinfo <= 0)
+                    {
+                        flagInfo = false;
+                        timerinfo = 0;
+                        lbThreshold.Text = "";
+                    }
+                }
 
                 pbCPU.Value = (int)s.CPU;
                 lbPCPU.Text = string.Format("{0 : 0.00}%", s.CPU);
@@ -190,6 +235,7 @@ namespace Course_v1
             if (tForm == null || tForm.IsDisposed)
             {
                 tForm = new ThresholdForm();
+                tForm.Owner = this;
                 tForm.Show();
             }
         }
