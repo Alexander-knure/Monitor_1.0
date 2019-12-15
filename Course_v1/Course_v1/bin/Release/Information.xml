@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ComponentValue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CPU_Name>Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz</CPU_Name>
+  <CPU_NCores>4</CPU_NCores>
+  <CPU_NThreads>8</CPU_NThreads>
+  <CPU_Architecture>x64</CPU_Architecture>
+  <CPU_Clock>2592 MHz</CPU_Clock>
+  <CPU_Socket>U3E1</CPU_Socket>
+  <CPU_Description>Intel64 Family 6 Model 94 Stepping 3</CPU_Description>
+  <CPU_Manufacturer>GenuineIntel</CPU_Manufacturer>
+  <RAM_BankLabel>BANK 0</RAM_BankLabel>
+  <RAM_Capacity>8 Gb</RAM_Capacity>
+  <RAM_Clock>2133 MHz</RAM_Clock>
+  <MOBO_Name>N501VW</MOBO_Name>
+  <MOBO_Caption>Основная плата</MOBO_Caption>
+  <MOBO_Manufacturer>ASUSTeK COMPUTER INC.</MOBO_Manufacturer>
+  <GPU_Name>Intel(R) HD Graphics Family</GPU_Name>
+  <GPU_Model>Intel(R) HD Graphics 530</GPU_Model>
+  <GPU_Capacity>1024 Mb</GPU_Capacity>
+  <OS_Caption>Майкрософт Windows 10 Домашняя</OS_Caption>
+  <OS_Location>C:\WINDOWS|\Device\Harddisk0\Partition4</OS_Location>
+  <OS_BuildNumber>18362</OS_BuildNumber>
+  <OS_Version>10.0.18362</OS_Version>
+  <OS_FPM>1,31 Gb</OS_FPM>
+  <OS_FVM>2,45 Gb</OS_FVM>
+  <OS_SerialNumber>00326-10000-00000-AA324</OS_SerialNumber>
+  <OS_SystemDrive>C:</OS_SystemDrive>
+</ComponentValue>
