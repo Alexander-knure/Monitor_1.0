@@ -90,7 +90,7 @@
             // 
             this.VOLTAGE.Text = "Voltage";
             this.VOLTAGE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.VOLTAGE.Width = 125;
+            this.VOLTAGE.Width = 120;
             // 
             // StatisticForm
             // 

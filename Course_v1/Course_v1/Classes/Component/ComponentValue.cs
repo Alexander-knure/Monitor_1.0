@@ -42,36 +42,8 @@ namespace Course_v1
 
         public ComponentValue()
         {
-            this.CPU_Name = "";
-            this.CPU_NCores = "";
-            this.CPU_NThreads = "";
-            this.CPU_Architecture = "";
-            this.CPU_Clock = "";
-            this.CPU_Clock = "";
-            this.CPU_Description = "";
-            this.CPU_Description = "";
-
-            this.RAM_BankLabel = "";
-            this.RAM_Capacity = "";
-            this.RAM_Clock = "";
-
-            this.MOBO_Name = "";
-            this.MOBO_Caption = "";
-            this.MOBO_Manufacturer = "";
-
-            this.GPU_Name = "";
-            this.GPU_Capacity = "";
-            this.GPU_Model = "";
-
-            this.OS_Caption = "";
-            this.OS_Location = "";
-            this.OS_BuildNumber = "";
-            this.OS_Version = "";
-            this.OS_FPM = "";
-            this.OS_FVM = "";
-            this.OS_SerialNumber = "";
-            this.OS_SystemDrive = "";
         }
+
         public void Clear()
         {
             this.CPU_Name = "";
@@ -108,7 +80,7 @@ namespace Course_v1
     
     public class ComponentValueList
     {
-        public Dictionary<string, string> cvList;
+        public  Dictionary<string, string> cvList;
 
         public ComponentValueList()
         {
@@ -156,20 +128,18 @@ namespace Course_v1
 
         public List<string> GetListName()
         {
-            var listEx = new List<string>();
-            foreach (var item in cvList)
-                listEx.Add(item.Key);
+            return cvList.Select(i => i.Key).ToList();
 
-            return listEx;
+            //var listEx = new List<string>();
+            //foreach (var item in cvList)
+            //    listEx.Add(item.Key);
+
+            //return listEx;
         }
 
         public List<string> GetListValue()
         {
-            var listEx = new List<string>();
-            foreach (var item in cvList)
-                listEx.Add(item.Value);
-
-            return listEx;
+            return cvList.Select(i => i.Value).ToList();
         }
 
         public int GetCount()

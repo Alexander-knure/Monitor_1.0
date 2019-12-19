@@ -19,17 +19,11 @@ namespace Course_v1
         public float CPU { get; set; }
         public float RAM { get; set; }
         public float TCPU { get; set; }
-        public double TMobo { get; set; }
-        public double Voltage { get; set; }
+        public float TMobo { get; set; }
+        public decimal Voltage { get; set; }
 
         public Statistic()
         {
-            this.Time = 0;
-            this.CPU = 0.0f;
-            this.RAM = 0.0f;
-            this.TCPU = 0.0f;
-            this.TMobo = 0.0d;
-            this.Voltage = 0.0f;
         }
     }
 
@@ -50,55 +44,37 @@ namespace Course_v1
         
         public List<int> GetListTime()
         {
-            var list = new List<int>();
-            foreach (var item in sList)
-                list.Add(item.Time);
-
-            return list;
+            return sList.Select(i => i.Time).ToList();
         }
         public List<float> GetListCPU()
         {
-            var list = new List<float>();
-            foreach (var item in sList)
-                list.Add(item.CPU);
+            return sList.Select(i => i.CPU).ToList();
 
-            return list;
+           //var list = new List<float>();
+           //foreach (var item in sList)
+           //    list.Add(item.CPU);
+           //
+           //return list;
         }
 
         public List<float> GetListRAM()
         {
-            var list = new List<float>();
-            foreach (var item in sList)
-                list.Add(item.RAM);
-
-            return list;
+            return sList.Select(i => i.RAM).ToList();
         }
 
         public List<float> GetListTCPU()
         {
-            var list = new List<float>();
-            foreach (var item in sList)
-                list.Add(item.TCPU);
-
-            return list;
+            return sList.Select(i => i.TCPU).ToList();
         }
 
-        public List<double> GetListTMobo()
+        public List<float> GetListTMobo()
         {
-            var list = new List<double>();
-            foreach (var item in sList)
-                list.Add(item.TMobo);
-
-            return list;
+            return sList.Select(i => i.TMobo).ToList();
         }
 
-        public List<double> GetListVoltage()
+        public List<decimal> GetListVoltage()
         {
-            var list = new List<double>();
-            foreach (var item in sList)
-                list.Add(item.Voltage);
-
-            return list;
+            return sList.Select(i => i.Voltage).ToList();
         }
 
         public int GetCount()

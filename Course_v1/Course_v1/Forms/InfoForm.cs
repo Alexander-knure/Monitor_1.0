@@ -31,17 +31,17 @@ namespace Course_v1
         private void InfoForm_Load(object sender, EventArgs e)
         {
             var mosCPU = new ManagementObjectSearcher("root\\CIMV2", "SELECT * FROM Win32_Processor");
-             foreach (ManagementObject mo in mosCPU.Get())
-             {
-                 cn.CPU_Name = "CPU name";
-                 cv.CPU_Name = Convert.ToString(mo["Name"]);
-                 ListViewItem item0 = new ListViewItem("CPU name");
-                 item0.SubItems.Add(cv.CPU_Name);
+            foreach (ManagementObject mo in mosCPU.Get())
+            {
+                cn.CPU_Name = "CPU name";
+                cv.CPU_Name = Convert.ToString(mo["Name"]);
+                ListViewItem item0 = new ListViewItem("CPU name");
+                item0.SubItems.Add(cv.CPU_Name);
 
-                 cn.CPU_NCores = "Number of cores";
-                 cv.CPU_NCores = Convert.ToString(mo["NumberOfCores"]);
-                 ListViewItem item1 = new ListViewItem(cn.CPU_NCores);
-                 item1.SubItems.Add(cv.CPU_NCores);
+                cn.CPU_NCores = "Number of cores";
+                cv.CPU_NCores = Convert.ToString(mo["NumberOfCores"]);
+                ListViewItem item1 = new ListViewItem(cn.CPU_NCores);
+                item1.SubItems.Add(cv.CPU_NCores);
 
                 cn.CPU_NThreads = "Number of threads";
                 cv.CPU_NThreads = Convert.ToString(mo["ThreadCount"]);
@@ -143,7 +143,7 @@ namespace Course_v1
                 cv.GPU_Model = Convert.ToString(mo["Caption"]);
                 ListViewItem item1 = new ListViewItem(cn.GPU_Model);
                 item1.SubItems.Add(cv.GPU_Model);
-                
+
                 var cpctVRAM = Math.Round(System.Convert.ToDouble(mo["AdapterRAM"]) / 1024 / 1024, 2);
                 cn.GPU_Capacity = "GPU capacity";
                 cv.GPU_Capacity = Convert.ToString(cpctVRAM + " Mb");
@@ -185,11 +185,11 @@ namespace Course_v1
                 cv.OS_FPM = Convert.ToString(cpctFPM + " Gb");
                 ListViewItem item4 = new ListViewItem(cn.OS_FPM);
                 item4.SubItems.Add(cv.OS_FPM);
-                
+
                 var cpctFVM = Math.Round(System.Convert.ToDouble(mo["FreeVirtualMemory"]) / 1024 / 1024, 2);
                 cn.OS_FVM = "Free virtual memory";
                 cv.OS_FVM = Convert.ToString(cpctFVM + " Gb");
-                ListViewItem item5= new ListViewItem(cn.OS_FVM);
+                ListViewItem item5 = new ListViewItem(cn.OS_FVM);
                 item5.SubItems.Add(cv.OS_FVM);
 
                 cn.OS_SerialNumber = "OS Serial number";
@@ -214,7 +214,7 @@ namespace Course_v1
             cvList.Add(cn, cv);
         }
 
-        private void ShowList(ref List<Row> rows)
+        private void ShowList(IEnumerable<Row> rows)
         {
             foreach (var item in rows)
             {
@@ -229,19 +229,13 @@ namespace Course_v1
         {
             ListViewInfo.Items.Clear();
 
-            var rows = new List<Row>();
-            var nameList = cvList.GetListName();
-            var valueList = cvList.GetListValue();
-
-            for(int i = 0; i < cvList.GetCount(); i++)
+            var rows = cvList.cvList.Select(i => new Row
             {
-                var row = new Row();
-                row.ComponentName = nameList[i];
-                row.ComponentValue = valueList[i];
-                rows.Add(row);
-            }
+                ComponentName = i.Key,
+                ComponentValue = i.Value
+            }).ToList();
 
-            ShowList(ref rows);
+            ShowList(rows);
         }
 
         private void btSave_Click(object sender, EventArgs e)
@@ -263,28 +257,24 @@ namespace Course_v1
 
             if (dialog.ShowDialog() == DialogResult.OK)
             {
-                switch (dialog.FilterIndex)
+                XmlSerializer formatter = new XmlSerializer(typeof(ComponentValue));
+                try
                 {
-                    case 1:
-                        XmlSerializer formatter = new XmlSerializer(typeof(ComponentValue));
-                        try
-                        {
-                            using (var file = new FileStream(dialog.FileName, FileMode.Open, FileAccess.Read))
-                            {
+                    using (var file = new FileStream(dialog.FileName, FileMode.Open, FileAccess.Read))
+                    {
 
-                                cv.Clear();
-                                cv = (ComponentValue)formatter.Deserialize(file);
-                                MyMessageBox.ShowMessage("Information loaded successfully!", "Information", MessageBoxButtons.OK);
-                                UpdateList();
-                            }
-                        }
-                        catch
-                        {
-                            MyMessageBox.ShowMessage("Information were not loaded \rsuccessfully! Please upload \ra file called \"Information\"", "Error!", MessageBoxButtons.OK);
-                        }
-                        break;
+                        cv.Clear();
+                        cv = (ComponentValue)formatter.Deserialize(file);
+                        MyMessageBox.ShowMessage("Information loaded successfully!", "Information", MessageBoxButtons.OK);
+                        UpdateList();
+                    }
+                }
+                catch
+                {
+                    MyMessageBox.ShowMessage("Information were not loaded \rsuccessfully! Please upload \ra file called \"Information\"", "Error!", MessageBoxButtons.OK);
                 }
             }
+
         }
 
         private void btLoadStatistic_Click(object sender, EventArgs e)

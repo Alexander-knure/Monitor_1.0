@@ -4,1226 +4,3106 @@
     <Statistic>
       <Time>0</Time>
       <CPU>0</CPU>
-      <RAM>66.64699</RAM>
-      <TCPU>49</TCPU>
-      <TMobo>44</TMobo>
-      <Voltage>0</Voltage>
+      <RAM>51.35242</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>500</Time>
-      <CPU>30.428194</CPU>
-      <RAM>66.66978</RAM>
-      <TCPU>49</TCPU>
-      <TMobo>44</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>30.4909039</CPU>
+      <RAM>51.3944435</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>1000</Time>
-      <CPU>14.6122122</CPU>
-      <RAM>66.6856</RAM>
-      <TCPU>49</TCPU>
-      <TMobo>44</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>22.554285</CPU>
+      <RAM>51.3976479</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>1500</Time>
-      <CPU>14.1815643</CPU>
-      <RAM>66.69803</RAM>
-      <TCPU>49</TCPU>
-      <TMobo>44</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>51.0427551</CPU>
+      <RAM>51.4074936</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>2000</Time>
-      <CPU>14.7297707</CPU>
-      <RAM>66.714386</RAM>
-      <TCPU>49</TCPU>
-      <TMobo>44</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>40.5957069</CPU>
+      <RAM>51.3976479</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>2500</Time>
-      <CPU>19.086586</CPU>
-      <RAM>66.7327347</RAM>
-      <TCPU>49</TCPU>
-      <TMobo>44</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>37.33205</CPU>
+      <RAM>51.3974571</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>3000</Time>
-      <CPU>18.3748512</CPU>
-      <RAM>66.7604141</RAM>
-      <TCPU>49</TCPU>
-      <TMobo>44</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>57.4285164</CPU>
+      <RAM>51.3966</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>3500</Time>
-      <CPU>23.5995312</CPU>
-      <RAM>66.83101</RAM>
-      <TCPU>49</TCPU>
-      <TMobo>44</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>6.02671957</CPU>
+      <RAM>51.40117</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>4000</Time>
-      <CPU>20.1718311</CPU>
-      <RAM>66.84403</RAM>
-      <TCPU>49</TCPU>
-      <TMobo>44</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>17.1228867</CPU>
+      <RAM>51.40117</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>4500</Time>
-      <CPU>15.9588757</CPU>
-      <RAM>66.85385</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>49.9425659</CPU>
+      <RAM>51.40655</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>5000</Time>
-      <CPU>17.077755</CPU>
-      <RAM>66.72939</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>0</CPU>
+      <RAM>51.4101563</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>5500</Time>
-      <CPU>21.10636</CPU>
-      <RAM>66.98487</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>16.9070282</CPU>
+      <RAM>51.4093781</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>6000</Time>
-      <CPU>19.3509865</CPU>
-      <RAM>66.6938553</RAM>
-      <TCPU>43</TCPU>
-      <TMobo>38</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.5681944</CPU>
+      <RAM>51.435257</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>6500</Time>
-      <CPU>63.5659447</CPU>
-      <RAM>66.68624</RAM>
-      <TCPU>43</TCPU>
-      <TMobo>38</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.9586906</CPU>
+      <RAM>51.42845</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>7000</Time>
-      <CPU>43.14441</CPU>
-      <RAM>66.69015</RAM>
-      <TCPU>46</TCPU>
-      <TMobo>41</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>24.5797348</CPU>
+      <RAM>51.5136</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>7500</Time>
-      <CPU>15.48148</CPU>
-      <RAM>66.6956558</RAM>
-      <TCPU>46</TCPU>
-      <TMobo>41</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>18.09553</CPU>
+      <RAM>51.5267563</RAM>
+      <TCPU>48</TCPU>
+      <TMobo>43</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>8000</Time>
-      <CPU>34.3311462</CPU>
-      <RAM>66.61245</RAM>
+      <CPU>19.48245</CPU>
+      <RAM>51.5323</RAM>
       <TCPU>48</TCPU>
       <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>8500</Time>
-      <CPU>29.4991074</CPU>
-      <RAM>66.62001</RAM>
+      <CPU>20.491293</CPU>
+      <RAM>51.53262</RAM>
       <TCPU>48</TCPU>
       <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>9000</Time>
-      <CPU>28.362421</CPU>
-      <RAM>66.62391</RAM>
+      <CPU>16.1259823</CPU>
+      <RAM>51.5348</RAM>
       <TCPU>48</TCPU>
       <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>9500</Time>
-      <CPU>24.73055</CPU>
-      <RAM>66.6323547</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>16.6774578</CPU>
+      <RAM>51.5507545</RAM>
+      <TCPU>47</TCPU>
+      <TMobo>42</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>10000</Time>
-      <CPU>28.2188759</CPU>
-      <RAM>66.6438446</RAM>
+      <CPU>9.183122</CPU>
+      <RAM>51.5882034</RAM>
       <TCPU>47</TCPU>
       <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>10500</Time>
-      <CPU>31.478</CPU>
-      <RAM>66.67425</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>1.47232747</CPU>
+      <RAM>51.59248</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>11000</Time>
-      <CPU>28.85446</CPU>
-      <RAM>66.7007141</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>11.4337091</CPU>
+      <RAM>51.59248</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>11500</Time>
-      <CPU>26.9079781</CPU>
-      <RAM>66.7348862</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>16.9120064</CPU>
+      <RAM>51.5876122</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>12000</Time>
-      <CPU>25.57755</CPU>
-      <RAM>66.7514</RAM>
-      <TCPU>49</TCPU>
-      <TMobo>44</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.0076857</CPU>
+      <RAM>51.5847855</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>12500</Time>
-      <CPU>24.56365</CPU>
-      <RAM>66.77631</RAM>
-      <TCPU>49</TCPU>
-      <TMobo>44</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>14.736063</CPU>
+      <RAM>51.5834961</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>13000</Time>
-      <CPU>35.3673553</CPU>
-      <RAM>66.7706146</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>17.4619064</CPU>
+      <RAM>51.5808067</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>13500</Time>
-      <CPU>23.53849</CPU>
-      <RAM>66.7810745</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>14.0473375</CPU>
+      <RAM>51.5803757</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>14000</Time>
-      <CPU>21.9005051</CPU>
-      <RAM>66.78546</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>17.2955284</CPU>
+      <RAM>51.57865</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>14500</Time>
-      <CPU>17.6245346</CPU>
-      <RAM>66.8114243</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.3994207</CPU>
+      <RAM>51.5779266</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>15000</Time>
-      <CPU>22.2939472</CPU>
-      <RAM>66.8482056</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>14.3465614</CPU>
+      <RAM>51.5768242</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>15500</Time>
-      <CPU>19.476984</CPU>
-      <RAM>66.84656</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>13.6653433</CPU>
+      <RAM>51.5728951</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>16000</Time>
-      <CPU>40.368885</CPU>
-      <RAM>67.0667648</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>18.5644245</CPU>
+      <RAM>51.6555138</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>16500</Time>
-      <CPU>19.98634</CPU>
-      <RAM>67.07424</RAM>
-      <TCPU>49</TCPU>
-      <TMobo>44</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>14.2723341</CPU>
+      <RAM>51.6555138</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>17000</Time>
-      <CPU>17.52286</CPU>
-      <RAM>67.0793</RAM>
-      <TCPU>49</TCPU>
-      <TMobo>44</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>16.5111523</CPU>
+      <RAM>51.6589851</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>17500</Time>
-      <CPU>15.5681267</CPU>
-      <RAM>67.0885849</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.0132446</CPU>
+      <RAM>51.66598</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>18000</Time>
-      <CPU>35.1644058</CPU>
-      <RAM>67.0915146</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>18.3969631</CPU>
+      <RAM>51.5283165</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>18500</Time>
-      <CPU>20.9267921</CPU>
-      <RAM>67.1178</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>24.558527</CPU>
+      <RAM>51.51255</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>19000</Time>
-      <CPU>19.2512951</CPU>
-      <RAM>67.31966</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>27.2998047</CPU>
+      <RAM>51.5244942</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>19500</Time>
-      <CPU>19.3119659</CPU>
-      <RAM>67.3319244</RAM>
-      <TCPU>45</TCPU>
-      <TMobo>40</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>23.23236</CPU>
+      <RAM>51.5244942</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>20000</Time>
-      <CPU>20.3045921</CPU>
-      <RAM>67.53456</RAM>
-      <TCPU>45</TCPU>
-      <TMobo>40</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>23.1486168</CPU>
+      <RAM>51.5224228</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>20500</Time>
-      <CPU>5.776518</CPU>
-      <RAM>67.5392456</RAM>
-      <TCPU>43</TCPU>
-      <TMobo>38</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>24.6189232</CPU>
+      <RAM>51.51785</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>21000</Time>
-      <CPU>13.317976</CPU>
-      <RAM>67.55221</RAM>
-      <TCPU>43</TCPU>
-      <TMobo>38</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>20.09455</CPU>
+      <RAM>51.5215378</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>21500</Time>
-      <CPU>20.2639885</CPU>
-      <RAM>67.53373</RAM>
-      <TCPU>46</TCPU>
-      <TMobo>41</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>17.1313152</CPU>
+      <RAM>51.5205956</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>22000</Time>
-      <CPU>16.4073715</CPU>
-      <RAM>67.55601</RAM>
-      <TCPU>46</TCPU>
-      <TMobo>41</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>21.9066868</CPU>
+      <RAM>51.5139771</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>22500</Time>
-      <CPU>20.65957</CPU>
-      <RAM>67.56741</RAM>
+      <CPU>21.1935768</CPU>
+      <RAM>51.5104523</RAM>
       <TCPU>48</TCPU>
       <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>23000</Time>
-      <CPU>16.7941017</CPU>
-      <RAM>67.587616</RAM>
+      <CPU>16.681757</CPU>
+      <RAM>51.5223961</RAM>
       <TCPU>48</TCPU>
       <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>23500</Time>
-      <CPU>28.0812588</CPU>
-      <RAM>67.59098</RAM>
-      <TCPU>46</TCPU>
-      <TMobo>41</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>16.0147877</CPU>
+      <RAM>51.50561</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>24000</Time>
-      <CPU>22.8412476</CPU>
-      <RAM>66.9647446</RAM>
-      <TCPU>46</TCPU>
-      <TMobo>41</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>9.572728</CPU>
+      <RAM>51.6278572</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>24500</Time>
-      <CPU>17.5227318</CPU>
-      <RAM>66.66701</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>6.14943457</CPU>
+      <RAM>51.62996</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>25000</Time>
-      <CPU>19.2469063</CPU>
-      <RAM>66.7009048</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>5.24207</CPU>
+      <RAM>51.62872</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>25500</Time>
-      <CPU>24.2254066</CPU>
-      <RAM>66.7371445</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>5.881054</CPU>
+      <RAM>51.6282349</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>26000</Time>
-      <CPU>17.59017</CPU>
-      <RAM>66.74331</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>6.415887</CPU>
+      <RAM>51.62603</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>26500</Time>
-      <CPU>29.4401951</CPU>
-      <RAM>66.7546844</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>5.683726</CPU>
+      <RAM>51.6233139</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>27000</Time>
-      <CPU>16.7862816</CPU>
-      <RAM>66.71213</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>6.65660572</CPU>
+      <RAM>51.6361465</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>27500</Time>
-      <CPU>18.6249714</CPU>
-      <RAM>66.6910553</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>6.94776535</CPU>
+      <RAM>51.6342621</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>28000</Time>
-      <CPU>19.0863266</CPU>
-      <RAM>66.69856</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>13.0716248</CPU>
+      <RAM>51.6302261</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>28500</Time>
-      <CPU>18.6953964</CPU>
-      <RAM>66.7067947</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>5.17774963</CPU>
+      <RAM>51.6877747</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>29000</Time>
-      <CPU>25.107954</CPU>
-      <RAM>66.73752</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>4.87512445</CPU>
+      <RAM>51.6863747</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>29500</Time>
-      <CPU>29.2806473</CPU>
-      <RAM>66.74737</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>3.69156933</CPU>
+      <RAM>51.69049</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>30000</Time>
-      <CPU>18.815794</CPU>
-      <RAM>66.70984</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>1.86456263</CPU>
+      <RAM>51.68067</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>30500</Time>
-      <CPU>17.74984</CPU>
-      <RAM>66.73112</RAM>
+      <CPU>14.9107466</CPU>
+      <RAM>51.68129</RAM>
       <TCPU>48</TCPU>
       <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>31000</Time>
-      <CPU>18.29807</CPU>
-      <RAM>66.75132</RAM>
+      <CPU>15.9037457</CPU>
+      <RAM>51.7231255</RAM>
       <TCPU>48</TCPU>
       <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>31500</Time>
-      <CPU>21.354847</CPU>
-      <RAM>66.7624359</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>20.4021816</CPU>
+      <RAM>51.72245</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>32000</Time>
-      <CPU>20.4229679</CPU>
-      <RAM>66.78764</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.128129</CPU>
+      <RAM>51.7253571</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>32500</Time>
-      <CPU>19.4726639</CPU>
-      <RAM>66.99784</RAM>
-      <TCPU>46</TCPU>
-      <TMobo>41</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>17.6249447</CPU>
+      <RAM>51.72194</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>33000</Time>
-      <CPU>24.9532166</CPU>
-      <RAM>66.65111</RAM>
-      <TCPU>46</TCPU>
-      <TMobo>41</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>17.6416111</CPU>
+      <RAM>51.72452</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>33500</Time>
-      <CPU>23.9285488</CPU>
-      <RAM>66.6556244</RAM>
-      <TCPU>46</TCPU>
-      <TMobo>41</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.9095793</CPU>
+      <RAM>51.72872</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>34000</Time>
-      <CPU>19.94011</CPU>
-      <RAM>66.44363</RAM>
-      <TCPU>46</TCPU>
-      <TMobo>41</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>17.3573322</CPU>
+      <RAM>51.7362251</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>34500</Time>
-      <CPU>11.7899628</CPU>
-      <RAM>66.56747</RAM>
-      <TCPU>44</TCPU>
-      <TMobo>39</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>17.12629</CPU>
+      <RAM>51.7423859</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>35000</Time>
-      <CPU>4.82584524</CPU>
-      <RAM>66.5713959</RAM>
-      <TCPU>44</TCPU>
-      <TMobo>39</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>17.630827</CPU>
+      <RAM>51.7318954</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>35500</Time>
-      <CPU>14.9249525</CPU>
-      <RAM>66.57478</RAM>
-      <TCPU>44</TCPU>
-      <TMobo>39</TMobo>
-      <Voltage>0</Voltage>
-    </Statistic>
-    <Statistic>
-      <Time>36000</Time>
-      <CPU>16.6762962</CPU>
-      <RAM>66.57478</RAM>
-      <TCPU>44</TCPU>
-      <TMobo>39</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>18.07117</CPU>
+      <RAM>51.71212</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>36500</Time>
-      <CPU>19.5523186</CPU>
-      <RAM>66.59668</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>24.7139626</CPU>
+      <RAM>51.7582321</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>37000</Time>
-      <CPU>16.3507977</CPU>
-      <RAM>66.61519</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>19.0134983</CPU>
+      <RAM>51.75175</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>37500</Time>
-      <CPU>17.460228</CPU>
-      <RAM>66.6394348</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>20.0992126</CPU>
+      <RAM>51.783577</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>38000</Time>
-      <CPU>20.3319473</CPU>
-      <RAM>66.62853</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.5678568</CPU>
+      <RAM>51.7977524</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>38500</Time>
-      <CPU>19.408783</CPU>
-      <RAM>66.66537</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>24.3189316</CPU>
+      <RAM>51.8135719</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>39000</Time>
-      <CPU>25.3951073</CPU>
-      <RAM>66.67554</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>19.31604</CPU>
+      <RAM>51.8135719</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>39500</Time>
-      <CPU>20.5652771</CPU>
-      <RAM>66.68856</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>25.0992126</CPU>
+      <RAM>51.81742</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>40000</Time>
-      <CPU>15.1193676</CPU>
-      <RAM>66.80034</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>20.807848</CPU>
+      <RAM>51.8300667</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>40500</Time>
-      <CPU>22.2992668</CPU>
-      <RAM>66.8163452</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>22.0636864</CPU>
+      <RAM>51.8462334</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>41000</Time>
-      <CPU>16.4533043</CPU>
-      <RAM>66.8790359</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>16.4529228</CPU>
+      <RAM>51.8633461</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>41500</Time>
-      <CPU>15.0139427</CPU>
-      <RAM>66.88183</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>20.4960442</CPU>
+      <RAM>51.975235</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>42000</Time>
-      <CPU>16.5684776</CPU>
-      <RAM>66.88563</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>16.5747013</CPU>
+      <RAM>52.205986</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>42500</Time>
-      <CPU>15.7359591</CPU>
-      <RAM>66.90365</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>28.8163624</CPU>
+      <RAM>52.2917824</RAM>
+      <TCPU>48</TCPU>
+      <TMobo>43</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>43000</Time>
-      <CPU>15.9633656</CPU>
-      <RAM>66.91734</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.481926</CPU>
+      <RAM>52.2906532</RAM>
+      <TCPU>48</TCPU>
+      <TMobo>43</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>43500</Time>
-      <CPU>20.4202347</CPU>
-      <RAM>66.9333</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>14.8139153</CPU>
+      <RAM>52.31481</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>44000</Time>
-      <CPU>21.191452</CPU>
-      <RAM>66.98175</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>3.489097</CPU>
+      <RAM>52.3164</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>44500</Time>
-      <CPU>19.6428242</CPU>
-      <RAM>67.0022</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>10.0454912</CPU>
+      <RAM>52.31371</RAM>
+      <TCPU>46</TCPU>
+      <TMobo>41</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>45000</Time>
-      <CPU>19.6318169</CPU>
-      <RAM>67.01942</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.35155</CPU>
+      <RAM>52.309082</RAM>
+      <TCPU>46</TCPU>
+      <TMobo>41</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>45500</Time>
-      <CPU>18.3749332</CPU>
-      <RAM>67.03585</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>14.7359581</CPU>
+      <RAM>52.3014145</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>46000</Time>
-      <CPU>18.2995071</CPU>
-      <RAM>67.05961</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>13.0497637</CPU>
+      <RAM>52.34583</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>46500</Time>
-      <CPU>15.7412767</CPU>
-      <RAM>67.08089</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>16.2929249</CPU>
+      <RAM>52.3435974</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>47000</Time>
-      <CPU>21.03558</CPU>
-      <RAM>67.3365</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>13.44127</CPU>
+      <RAM>52.34239</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>47500</Time>
-      <CPU>22.6040134</CPU>
-      <RAM>67.29722</RAM>
-      <TCPU>45</TCPU>
-      <TMobo>40</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.2875319</CPU>
+      <RAM>52.34115</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>48000</Time>
-      <CPU>19.4823532</CPU>
-      <RAM>67.26919</RAM>
-      <TCPU>45</TCPU>
-      <TMobo>40</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.2356091</CPU>
+      <RAM>52.3493271</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>48500</Time>
-      <CPU>20.808033</CPU>
-      <RAM>67.03599</RAM>
-      <TCPU>46</TCPU>
-      <TMobo>41</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>16.12067</CPU>
+      <RAM>52.34096</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>49000</Time>
-      <CPU>5.835906</CPU>
-      <RAM>67.0692139</RAM>
-      <TCPU>46</TCPU>
-      <TMobo>41</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>16.1268559</CPU>
+      <RAM>52.3550034</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>49500</Time>
-      <CPU>3.469924</CPU>
-      <RAM>67.0590439</RAM>
-      <TCPU>41</TCPU>
-      <TMobo>36</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>14.4449339</CPU>
+      <RAM>52.35764</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>50000</Time>
-      <CPU>16.3601418</CPU>
-      <RAM>67.06623</RAM>
-      <TCPU>41</TCPU>
-      <TMobo>36</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>13.7913656</CPU>
+      <RAM>52.3555679</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>50500</Time>
-      <CPU>18.8631859</CPU>
-      <RAM>67.06609</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>16.5164719</CPU>
+      <RAM>52.3475266</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>51000</Time>
-      <CPU>16.34961</CPU>
-      <RAM>67.08011</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>14.2242737</CPU>
+      <RAM>52.35167</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>51500</Time>
-      <CPU>16.1267681</CPU>
-      <RAM>67.08665</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>14.9505959</CPU>
+      <RAM>52.35094</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>52000</Time>
-      <CPU>18.4666939</CPU>
-      <RAM>67.08686</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>14.9105949</CPU>
+      <RAM>52.34559</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>52500</Time>
-      <CPU>17.7496128</CPU>
-      <RAM>67.104454</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.0595341</CPU>
+      <RAM>52.35003</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>53000</Time>
-      <CPU>18.2394657</CPU>
-      <RAM>67.11707</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>14.7808</CPU>
+      <RAM>52.3492737</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>53500</Time>
-      <CPU>26.5082626</CPU>
-      <RAM>67.12765</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.5202932</CPU>
+      <RAM>52.3546028</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>54000</Time>
-      <CPU>17.3634472</CPU>
-      <RAM>67.12918</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>13.61386</CPU>
+      <RAM>52.361084</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>54500</Time>
-      <CPU>18.856638</CPU>
-      <RAM>67.16117</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.7366829</CPU>
+      <RAM>52.3522072</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>55000</Time>
-      <CPU>18.851841</CPU>
-      <RAM>67.19036</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.2931471</CPU>
+      <RAM>52.36765</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>55500</Time>
-      <CPU>17.9189529</CPU>
-      <RAM>67.20064</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>16.4649048</CPU>
+      <RAM>52.3226929</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>56000</Time>
-      <CPU>15.4009314</CPU>
-      <RAM>67.20489</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.9591112</CPU>
+      <RAM>52.32307</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>56500</Time>
-      <CPU>18.400547</CPU>
-      <RAM>67.20642</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>18.071352</CPU>
+      <RAM>51.6899261</RAM>
+      <TCPU>48</TCPU>
+      <TMobo>43</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>57000</Time>
-      <CPU>19.8683529</CPU>
-      <RAM>67.21363</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.1844034</CPU>
+      <RAM>51.72638</RAM>
+      <TCPU>48</TCPU>
+      <TMobo>43</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>57500</Time>
-      <CPU>17.7488689</CPU>
-      <RAM>67.2151947</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>4.19736576</CPU>
+      <RAM>51.7352028</RAM>
+      <TCPU>46</TCPU>
+      <TMobo>41</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>58000</Time>
-      <CPU>19.47708</CPU>
-      <RAM>67.22361</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>2.76950622</CPU>
+      <RAM>51.7430038</RAM>
+      <TCPU>46</TCPU>
+      <TMobo>41</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>58500</Time>
-      <CPU>22.203083</CPU>
-      <RAM>67.2243652</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>19.7139511</CPU>
+      <RAM>51.74048</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>59000</Time>
-      <CPU>21.3509464</CPU>
-      <RAM>67.24247</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>1.892485</CPU>
+      <RAM>51.74131</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>36000</Time>
+      <CPU>16.6325054</CPU>
+      <RAM>51.746666</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>59500</Time>
-      <CPU>16.9714432</CPU>
-      <RAM>67.25068</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>4.22385263</CPU>
+      <RAM>51.7392654</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>60000</Time>
-      <CPU>17.908123</CPU>
-      <RAM>67.24554</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>4.43676138</CPU>
+      <RAM>51.73916</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>60500</Time>
-      <CPU>20.4181213</CPU>
-      <RAM>67.26351</RAM>
+      <CPU>13.9826412</CPU>
+      <RAM>51.742897</RAM>
       <TCPU>47</TCPU>
       <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>61000</Time>
-      <CPU>22.3677425</CPU>
-      <RAM>67.29633</RAM>
+      <CPU>18.401947</CPU>
+      <RAM>51.7366028</RAM>
       <TCPU>47</TCPU>
       <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>61500</Time>
-      <CPU>28.7224</CPU>
-      <RAM>67.36173</RAM>
-      <TCPU>45</TCPU>
-      <TMobo>40</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>14.2251472</CPU>
+      <RAM>51.7334824</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>62000</Time>
-      <CPU>22.5972786</CPU>
-      <RAM>67.57314</RAM>
-      <TCPU>45</TCPU>
-      <TMobo>40</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>20.8822575</CPU>
+      <RAM>51.69816</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>62500</Time>
-      <CPU>20.4176121</CPU>
-      <RAM>67.65218</RAM>
-      <TCPU>45</TCPU>
-      <TMobo>40</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>16.0155354</CPU>
+      <RAM>51.6968651</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>63000</Time>
-      <CPU>15.632019</CPU>
-      <RAM>67.5567551</RAM>
-      <TCPU>45</TCPU>
-      <TMobo>40</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>13.4862318</CPU>
+      <RAM>51.69754</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>63500</Time>
-      <CPU>9.903468</CPU>
-      <RAM>67.570694</RAM>
-      <TCPU>43</TCPU>
-      <TMobo>38</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.7366991</CPU>
+      <RAM>51.6883125</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>64000</Time>
-      <CPU>7.17137432</CPU>
-      <RAM>67.56749</RAM>
-      <TCPU>43</TCPU>
-      <TMobo>38</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.2877035</CPU>
+      <RAM>51.69851</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>64500</Time>
-      <CPU>21.2742615</CPU>
-      <RAM>67.56141</RAM>
-      <TCPU>45</TCPU>
-      <TMobo>40</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.0652971</CPU>
+      <RAM>51.69606</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>65000</Time>
-      <CPU>19.8683681</CPU>
-      <RAM>67.57901</RAM>
-      <TCPU>45</TCPU>
-      <TMobo>40</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.7358408</CPU>
+      <RAM>51.6906776</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>65500</Time>
-      <CPU>21.1979</CPU>
-      <RAM>67.58194</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>14.3469706</CPU>
+      <RAM>51.6986961</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>66000</Time>
-      <CPU>19.1735783</CPU>
-      <RAM>67.594986</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>14.2735739</CPU>
+      <RAM>51.6945</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>66500</Time>
-      <CPU>25.19126</CPU>
-      <RAM>67.61651</RAM>
-      <TCPU>46</TCPU>
-      <TMobo>41</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>18.07662</CPU>
+      <RAM>51.6999054</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>67000</Time>
-      <CPU>16.5798512</CPU>
-      <RAM>67.63174</RAM>
-      <TCPU>46</TCPU>
-      <TMobo>41</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>14.1706448</CPU>
+      <RAM>51.6984</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>67500</Time>
-      <CPU>22.4442844</CPU>
-      <RAM>67.61097</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.9643412</CPU>
+      <RAM>51.69805</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>68000</Time>
-      <CPU>23.0646286</CPU>
-      <RAM>67.62033</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>16.7407627</CPU>
+      <RAM>51.6891441</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>68500</Time>
-      <CPU>19.5520763</CPU>
-      <RAM>67.64654</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.849534</CPU>
+      <RAM>51.6649055</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>69000</Time>
-      <CPU>20.412159</CPU>
-      <RAM>67.67408</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>15.6221695</CPU>
+      <RAM>51.6736221</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>69500</Time>
-      <CPU>20.2640839</CPU>
-      <RAM>67.64933</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>16.4068642</CPU>
+      <RAM>51.6797028</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>70000</Time>
-      <CPU>18.0718746</CPU>
-      <RAM>67.70804</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>16.065155</CPU>
+      <RAM>51.66754</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>70500</Time>
-      <CPU>16.2424774</CPU>
-      <RAM>67.70247</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>19.6545277</CPU>
+      <RAM>50.26208</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>71000</Time>
-      <CPU>16.7939358</CPU>
-      <RAM>67.71557</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>37.6881752</CPU>
+      <RAM>50.2588234</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>71500</Time>
-      <CPU>15.6274729</CPU>
-      <RAM>67.71912</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>48.16631</CPU>
+      <RAM>50.247364</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>72000</Time>
-      <CPU>19.247858</CPU>
-      <RAM>67.72636</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>14.7143421</CPU>
+      <RAM>50.2615166</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>72500</Time>
-      <CPU>16.3441372</CPU>
-      <RAM>67.7344</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>20.02757</CPU>
+      <RAM>50.48129</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>73000</Time>
-      <CPU>17.6924458</CPU>
-      <RAM>67.74075</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>16.2373219</CPU>
+      <RAM>50.70491</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>73500</Time>
-      <CPU>21.7438774</CPU>
-      <RAM>67.746994</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>11.7095757</CPU>
+      <RAM>50.7696648</RAM>
+      <TCPU>48</TCPU>
+      <TMobo>43</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>74000</Time>
-      <CPU>25.3354588</CPU>
-      <RAM>67.62098</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>4.16502666</CPU>
+      <RAM>50.7696648</RAM>
+      <TCPU>48</TCPU>
+      <TMobo>43</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>74500</Time>
-      <CPU>27.7879143</CPU>
-      <RAM>67.6310654</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>11.3673487</CPU>
+      <RAM>50.7736473</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>75000</Time>
-      <CPU>26.7075443</CPU>
-      <RAM>67.62719</RAM>
-      <TCPU>48</TCPU>
-      <TMobo>43</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>13.8323984</CPU>
+      <RAM>50.7781677</RAM>
+      <TCPU>44</TCPU>
+      <TMobo>39</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>75500</Time>
-      <CPU>27.64325</CPU>
-      <RAM>66.85105</RAM>
-      <TCPU>47</TCPU>
-      <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <CPU>14.5659981</CPU>
+      <RAM>50.7854576</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
     <Statistic>
       <Time>76000</Time>
-      <CPU>28.7563953</CPU>
-      <RAM>66.73147</RAM>
+      <CPU>16.8482914</CPU>
+      <RAM>50.8612175</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>76500</Time>
+      <CPU>16.57982</CPU>
+      <RAM>50.8612175</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>77000</Time>
+      <CPU>15.5626516</CPU>
+      <RAM>50.86001</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>77500</Time>
+      <CPU>17.755579</CPU>
+      <RAM>50.860466</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>78000</Time>
+      <CPU>14.1692219</CPU>
+      <RAM>50.86668</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>78500</Time>
+      <CPU>17.3022671</CPU>
+      <RAM>50.871685</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>79000</Time>
+      <CPU>17.1323261</CPU>
+      <RAM>50.87039</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>79500</Time>
+      <CPU>14.9501743</CPU>
+      <RAM>50.86536</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>80000</Time>
+      <CPU>18.70078</CPU>
+      <RAM>50.8739166</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>80500</Time>
+      <CPU>18.62369</CPU>
+      <RAM>50.8744545</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>81000</Time>
+      <CPU>23.0788479</CPU>
+      <RAM>50.8497849</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>81500</Time>
+      <CPU>17.357399</CPU>
+      <RAM>50.8493538</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>82000</Time>
+      <CPU>15.1775494</CPU>
+      <RAM>50.845562</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>82500</Time>
+      <CPU>16.4590225</CPU>
+      <RAM>50.85261</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>83000</Time>
+      <CPU>15.1776342</CPU>
+      <RAM>50.8633461</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>83500</Time>
+      <CPU>17.1919022</CPU>
+      <RAM>50.70432</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>84000</Time>
+      <CPU>33.22589</CPU>
+      <RAM>50.69719</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>84500</Time>
+      <CPU>27.7276421</CPU>
+      <RAM>50.6979141</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>85000</Time>
+      <CPU>23.6245956</CPU>
+      <RAM>50.68686</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>85500</Time>
+      <CPU>24.31849</CPU>
+      <RAM>50.83176</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>86000</Time>
+      <CPU>26.269558</CPU>
+      <RAM>51.061058</RAM>
+      <TCPU>50</TCPU>
+      <TMobo>45</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>86500</Time>
+      <CPU>25.6374588</CPU>
+      <RAM>51.2661972</RAM>
+      <TCPU>48</TCPU>
+      <TMobo>43</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>87000</Time>
+      <CPU>39.31865</CPU>
+      <RAM>51.77561</RAM>
+      <TCPU>48</TCPU>
+      <TMobo>43</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>87500</Time>
+      <CPU>91.45162</CPU>
+      <RAM>52.48729</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>88000</Time>
+      <CPU>100</CPU>
+      <RAM>53.6963272</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>88500</Time>
+      <CPU>100</CPU>
+      <RAM>54.8966</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>89000</Time>
+      <CPU>78.80718</CPU>
+      <RAM>55.3311157</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>89500</Time>
+      <CPU>80.8082657</CPU>
+      <RAM>56.3778725</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>90000</Time>
+      <CPU>51.92078</CPU>
+      <RAM>56.9004173</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>90500</Time>
+      <CPU>52.008667</CPU>
+      <RAM>57.145752</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>91000</Time>
+      <CPU>61.77872</CPU>
+      <RAM>57.2527466</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>91500</Time>
+      <CPU>54.92674</CPU>
+      <RAM>57.2411232</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>92000</Time>
+      <CPU>30.9506149</CPU>
+      <RAM>57.2869148</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>92500</Time>
+      <CPU>26.6111927</CPU>
+      <RAM>57.2211342</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>93000</Time>
+      <CPU>23.3858929</CPU>
+      <RAM>57.2225075</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>93500</Time>
+      <CPU>25.73142</CPU>
+      <RAM>57.2157822</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>94000</Time>
+      <CPU>32.8068275</CPU>
+      <RAM>57.3882332</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>94500</Time>
+      <CPU>41.32721</CPU>
+      <RAM>57.5966</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>95000</Time>
+      <CPU>99.2135239</CPU>
+      <RAM>57.9521</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>95500</Time>
+      <CPU>98.05333</CPU>
+      <RAM>58.4991</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>96000</Time>
+      <CPU>91.77494</CPU>
+      <RAM>59.06036</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>96500</Time>
+      <CPU>63.71966</CPU>
+      <RAM>59.2167244</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>97000</Time>
+      <CPU>50.066143</CPU>
+      <RAM>58.96491</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>97500</Time>
+      <CPU>85.8998642</CPU>
+      <RAM>59.2347755</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>98000</Time>
+      <CPU>87.59069</CPU>
+      <RAM>58.8963</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>98500</Time>
+      <CPU>38.11665</CPU>
+      <RAM>59.00755</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>99000</Time>
+      <CPU>28.4717445</CPU>
+      <RAM>59.05681</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>99500</Time>
+      <CPU>25.33616</CPU>
+      <RAM>59.1009026</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>100000</Time>
+      <CPU>43.3217468</CPU>
+      <RAM>59.2134933</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>100500</Time>
+      <CPU>72.30162</CPU>
+      <RAM>59.51134</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>101000</Time>
+      <CPU>72.58329</CPU>
+      <RAM>59.797245</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>101500</Time>
+      <CPU>51.33356</CPU>
+      <RAM>59.90868</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>102000</Time>
+      <CPU>51.432415</CPU>
+      <RAM>60.09173</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>102500</Time>
+      <CPU>60.20931</CPU>
+      <RAM>60.26542</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>103000</Time>
+      <CPU>56.52413</CPU>
+      <RAM>60.16531</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>103500</Time>
+      <CPU>86.0018539</CPU>
+      <RAM>59.7450256</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>104000</Time>
+      <CPU>87.51639</CPU>
+      <RAM>59.7217</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>104500</Time>
+      <CPU>83.87697</CPU>
+      <RAM>59.94376</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>105000</Time>
+      <CPU>56.3382759</CPU>
+      <RAM>59.9761276</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>105500</Time>
+      <CPU>46.1649742</CPU>
+      <RAM>60.1737328</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>106000</Time>
+      <CPU>44.4937057</CPU>
+      <RAM>60.3608971</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>106500</Time>
+      <CPU>39.6831055</CPU>
+      <RAM>60.5201149</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>107000</Time>
+      <CPU>42.9302025</CPU>
+      <RAM>59.4979973</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>107500</Time>
+      <CPU>51.62648</CPU>
+      <RAM>59.4938278</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>108000</Time>
+      <CPU>42.26761</CPU>
+      <RAM>59.446907</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>108500</Time>
+      <CPU>33.54463</CPU>
+      <RAM>59.4553032</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>109000</Time>
+      <CPU>67.2959442</CPU>
+      <RAM>60.62267</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>109500</Time>
+      <CPU>81.6016</CPU>
+      <RAM>61.135746</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>110000</Time>
+      <CPU>88.25068</CPU>
+      <RAM>61.2298775</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>110500</Time>
+      <CPU>100</CPU>
+      <RAM>61.2526131</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>111000</Time>
+      <CPU>88.71359</CPU>
+      <RAM>61.12614</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>111500</Time>
+      <CPU>100</CPU>
+      <RAM>61.1185265</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>112000</Time>
+      <CPU>100</CPU>
+      <RAM>61.0242844</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>112500</Time>
+      <CPU>89.1377945</CPU>
+      <RAM>61.027916</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>113000</Time>
+      <CPU>92.89461</CPU>
+      <RAM>61.08019</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>113500</Time>
+      <CPU>87.89695</CPU>
+      <RAM>61.1094856</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>114000</Time>
+      <CPU>79.75477</CPU>
+      <RAM>61.0990219</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>114500</Time>
+      <CPU>85.14774</CPU>
+      <RAM>61.09423</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>115000</Time>
+      <CPU>72.57956</CPU>
+      <RAM>61.04177</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>115500</Time>
+      <CPU>73.92706</CPU>
+      <RAM>61.0620842</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>116000</Time>
+      <CPU>77.2832</CPU>
+      <RAM>61.09531</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>116500</Time>
+      <CPU>59.8848457</CPU>
+      <RAM>61.03332</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>117000</Time>
+      <CPU>60.67832</CPU>
+      <RAM>60.9458046</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>117500</Time>
+      <CPU>72.2786942</CPU>
+      <RAM>60.8987236</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>118000</Time>
+      <CPU>74.38776</CPU>
+      <RAM>60.8874245</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>118500</Time>
+      <CPU>61.9594955</CPU>
+      <RAM>60.86289</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>119000</Time>
+      <CPU>64.25432</CPU>
+      <RAM>60.8815346</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>119500</Time>
+      <CPU>70.29244</CPU>
+      <RAM>60.81702</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>120000</Time>
+      <CPU>53.27127</CPU>
+      <RAM>60.59227</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>120500</Time>
+      <CPU>47.3714256</CPU>
+      <RAM>60.5456161</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>121000</Time>
+      <CPU>51.7140579</CPU>
+      <RAM>60.6002579</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>121500</Time>
+      <CPU>66.97861</CPU>
+      <RAM>60.9020081</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>122000</Time>
+      <CPU>74.13344</CPU>
+      <RAM>60.9028664</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>122500</Time>
+      <CPU>69.5344238</CPU>
+      <RAM>60.8879623</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>123000</Time>
+      <CPU>74.6920547</CPU>
+      <RAM>60.90876</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>123500</Time>
+      <CPU>76.55124</CPU>
+      <RAM>60.9057732</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>124000</Time>
+      <CPU>83.60578</CPU>
+      <RAM>60.8622971</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>124500</Time>
+      <CPU>81.61223</CPU>
+      <RAM>60.8527756</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>125000</Time>
+      <CPU>80.14672</CPU>
+      <RAM>60.83709</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>125500</Time>
+      <CPU>58.8308678</CPU>
+      <RAM>60.8622169</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>126000</Time>
+      <CPU>36.1603775</CPU>
+      <RAM>60.8566742</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>126500</Time>
+      <CPU>51.13621</CPU>
+      <RAM>60.8417969</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>127000</Time>
+      <CPU>32.8786545</CPU>
+      <RAM>60.839</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>127500</Time>
+      <CPU>49.19454</CPU>
+      <RAM>60.8599854</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>128000</Time>
+      <CPU>44.3252449</CPU>
+      <RAM>60.85544</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>128500</Time>
+      <CPU>40.9760132</CPU>
+      <RAM>60.66924</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>129000</Time>
+      <CPU>38.69449</CPU>
+      <RAM>60.6638832</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>129500</Time>
+      <CPU>46.06741</CPU>
+      <RAM>60.6482544</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>130000</Time>
+      <CPU>37.32809</CPU>
+      <RAM>60.6467743</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>130500</Time>
+      <CPU>28.0318527</CPU>
+      <RAM>60.33733</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>131000</Time>
+      <CPU>24.0604362</CPU>
+      <RAM>60.362648</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>131500</Time>
+      <CPU>26.8094</CPU>
+      <RAM>59.668808</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>132000</Time>
+      <CPU>47.06318</CPU>
+      <RAM>59.7849236</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>132500</Time>
+      <CPU>27.87212</CPU>
+      <RAM>59.8514023</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>133000</Time>
+      <CPU>54.133625</CPU>
+      <RAM>59.6551132</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>133500</Time>
+      <CPU>62.4285851</CPU>
+      <RAM>59.7545242</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>134000</Time>
+      <CPU>50.53783</CPU>
+      <RAM>59.71196</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>134500</Time>
+      <CPU>50.08731</CPU>
+      <RAM>59.7377625</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>135000</Time>
+      <CPU>53.8696365</CPU>
+      <RAM>59.75132</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>135500</Time>
+      <CPU>50.95265</CPU>
+      <RAM>60.0242577</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>136000</Time>
+      <CPU>60.12943</CPU>
+      <RAM>60.03569</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>136500</Time>
+      <CPU>45.6620331</CPU>
+      <RAM>60.03795</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>137000</Time>
+      <CPU>48.5037346</CPU>
+      <RAM>59.93639</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>137500</Time>
+      <CPU>48.45416</CPU>
+      <RAM>59.9213524</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>138000</Time>
+      <CPU>51.45926</CPU>
+      <RAM>59.8757477</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>138500</Time>
+      <CPU>43.8605728</CPU>
+      <RAM>59.8602524</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>139000</Time>
+      <CPU>51.82445</CPU>
+      <RAM>59.8480644</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>139500</Time>
+      <CPU>60.0681152</CPU>
+      <RAM>59.8515625</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>140000</Time>
+      <CPU>62.6836853</CPU>
+      <RAM>59.9338074</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>140500</Time>
+      <CPU>57.4436951</CPU>
+      <RAM>59.83502</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>141000</Time>
+      <CPU>47.1544456</CPU>
+      <RAM>59.9102135</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>141500</Time>
+      <CPU>24.86822</CPU>
+      <RAM>59.8198433</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>142000</Time>
+      <CPU>51.4757271</CPU>
+      <RAM>59.8306847</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>142500</Time>
+      <CPU>23.4469624</CPU>
+      <RAM>59.8131447</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>143000</Time>
+      <CPU>24.950182</CPU>
+      <RAM>59.8662</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>143500</Time>
+      <CPU>25.91233</CPU>
+      <RAM>59.8151627</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>144000</Time>
+      <CPU>25.3749084</CPU>
+      <RAM>59.5195465</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>144500</Time>
+      <CPU>16.2421341</CPU>
+      <RAM>59.29442</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>145000</Time>
+      <CPU>17.03988</CPU>
+      <RAM>59.23647</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>145500</Time>
+      <CPU>14.1825762</CPU>
+      <RAM>59.2361755</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>146000</Time>
+      <CPU>16.0183029</CPU>
+      <RAM>59.1998024</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>146500</Time>
+      <CPU>16.6090832</CPU>
+      <RAM>59.193882</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>147000</Time>
+      <CPU>17.1371021</CPU>
+      <RAM>58.8777122</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>147500</Time>
+      <CPU>18.1704025</CPU>
+      <RAM>58.8732719</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>148000</Time>
+      <CPU>16.4647369</CPU>
+      <RAM>58.70096</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>148500</Time>
+      <CPU>26.950655</CPU>
+      <RAM>58.7460747</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>149000</Time>
+      <CPU>30.17063</CPU>
+      <RAM>58.8268127</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>149500</Time>
+      <CPU>27.78822</CPU>
+      <RAM>59.4404259</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>150000</Time>
+      <CPU>49.19917</CPU>
+      <RAM>59.2406654</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>150500</Time>
+      <CPU>40.5858345</CPU>
+      <RAM>59.2654457</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>151000</Time>
+      <CPU>46.0166931</CPU>
+      <RAM>59.3334045</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>151500</Time>
+      <CPU>48.6078224</CPU>
+      <RAM>59.26133</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>152000</Time>
+      <CPU>30.2828236</CPU>
+      <RAM>59.5493851</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>152500</Time>
+      <CPU>23.0001564</CPU>
+      <RAM>59.61234</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>153000</Time>
+      <CPU>33.41973</CPU>
+      <RAM>59.8785744</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>153500</Time>
+      <CPU>38.4851</CPU>
+      <RAM>59.55159</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>154000</Time>
+      <CPU>37.86752</CPU>
+      <RAM>59.4004745</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>154500</Time>
+      <CPU>34.85185</CPU>
+      <RAM>60.0711746</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>155000</Time>
+      <CPU>31.0880566</CPU>
+      <RAM>59.6599045</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>155500</Time>
+      <CPU>30.9280548</CPU>
+      <RAM>59.7099152</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>156000</Time>
+      <CPU>34.9793663</CPU>
+      <RAM>59.52872</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>156500</Time>
+      <CPU>15.6282692</CPU>
+      <RAM>59.5324364</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>157000</Time>
+      <CPU>14.780715</CPU>
+      <RAM>59.5299339</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>157500</Time>
+      <CPU>18.7006187</CPU>
+      <RAM>59.5277252</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>158000</Time>
+      <CPU>16.7409267</CPU>
+      <RAM>59.5293121</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>158500</Time>
+      <CPU>13.9990826</CPU>
+      <RAM>59.5327034</RAM>
+      <TCPU>57</TCPU>
+      <TMobo>52</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>159000</Time>
+      <CPU>14.7862406</CPU>
+      <RAM>59.5368729</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>159500</Time>
+      <CPU>14.3951483</CPU>
+      <RAM>59.5398865</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>160000</Time>
+      <CPU>15.1802654</CPU>
+      <RAM>59.5375175</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>160500</Time>
+      <CPU>15.3498936</CPU>
+      <RAM>59.5440025</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>161000</Time>
+      <CPU>15.5139914</CPU>
+      <RAM>59.54091</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>161500</Time>
+      <CPU>14.8369751</CPU>
+      <RAM>59.5356369</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>162000</Time>
+      <CPU>16.121273</CPU>
+      <RAM>59.519062</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>162500</Time>
+      <CPU>16.23679</CPU>
+      <RAM>59.4949837</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>163000</Time>
+      <CPU>15.851943</CPU>
+      <RAM>59.0037</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>163500</Time>
+      <CPU>17.0715389</CPU>
+      <RAM>59.01032</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>164000</Time>
+      <CPU>19.7089443</CPU>
+      <RAM>58.7055855</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>164500</Time>
+      <CPU>16.3489418</CPU>
+      <RAM>58.7120667</RAM>
+      <TCPU>56</TCPU>
+      <TMobo>51</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>165000</Time>
+      <CPU>23.38097</CPU>
+      <RAM>58.7072</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>165500</Time>
+      <CPU>14.7916269</CPU>
+      <RAM>58.69582</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>166000</Time>
+      <CPU>18.4619064</CPU>
+      <RAM>59.0182571</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>166500</Time>
+      <CPU>6.779984</CPU>
+      <RAM>58.4167747</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>167000</Time>
+      <CPU>5.62883234</CPU>
+      <RAM>58.4226952</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>167500</Time>
+      <CPU>17.5892887</CPU>
+      <RAM>58.42778</RAM>
+      <TCPU>49</TCPU>
+      <TMobo>44</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>168000</Time>
+      <CPU>20.1152344</CPU>
+      <RAM>58.4171524</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>168500</Time>
+      <CPU>13.8799219</CPU>
+      <RAM>58.41718</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>169000</Time>
+      <CPU>14.9557467</CPU>
+      <RAM>58.4116936</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>169500</Time>
+      <CPU>14.7361622</CPU>
+      <RAM>58.41893</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>170000</Time>
+      <CPU>18.6895866</CPU>
+      <RAM>58.42458</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>170500</Time>
+      <CPU>15.6279135</CPU>
+      <RAM>58.4145164</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>171000</Time>
+      <CPU>14.176302</CPU>
+      <RAM>58.4198723</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>171500</Time>
+      <CPU>17.1317959</CPU>
+      <RAM>58.4196</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>172000</Time>
+      <CPU>16.28705</CPU>
+      <RAM>58.42762</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>172500</Time>
+      <CPU>15.183032</CPU>
+      <RAM>58.4264336</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>173000</Time>
+      <CPU>16.1831722</CPU>
+      <RAM>58.4140854</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>173500</Time>
+      <CPU>14.1700621</CPU>
+      <RAM>58.4137077</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>174000</Time>
+      <CPU>15.4666328</CPU>
+      <RAM>58.4134941</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>174500</Time>
+      <CPU>17.2475224</CPU>
+      <RAM>58.4173965</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>175000</Time>
+      <CPU>15.1773424</CPU>
+      <RAM>58.42399</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>175500</Time>
+      <CPU>17.85582</CPU>
+      <RAM>58.42229</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>176000</Time>
+      <CPU>16.4592381</CPU>
+      <RAM>58.43421</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>176500</Time>
+      <CPU>13.7010422</CPU>
+      <RAM>58.43281</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>177000</Time>
+      <CPU>16.9123726</CPU>
+      <RAM>58.4150543</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>177500</Time>
+      <CPU>14.68545</CPU>
+      <RAM>58.4183655</RAM>
+      <TCPU>55</TCPU>
+      <TMobo>50</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>178000</Time>
+      <CPU>18.9867821</CPU>
+      <RAM>58.3883133</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>178500</Time>
+      <CPU>16.2369385</CPU>
+      <RAM>58.4310074</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>179000</Time>
+      <CPU>14.62188</CPU>
+      <RAM>58.6877747</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>179500</Time>
+      <CPU>15.4465752</CPU>
+      <RAM>58.8178253</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>180000</Time>
+      <CPU>11.6993361</CPU>
+      <RAM>58.9000435</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>180500</Time>
+      <CPU>1.7088275</CPU>
+      <RAM>58.9062042</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>181000</Time>
+      <CPU>10.136632</CPU>
+      <RAM>58.9463959</RAM>
       <TCPU>47</TCPU>
       <TMobo>42</TMobo>
-      <Voltage>0</Voltage>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>181500</Time>
+      <CPU>15.0797634</CPU>
+      <RAM>58.95264</RAM>
+      <TCPU>47</TCPU>
+      <TMobo>42</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>182000</Time>
+      <CPU>15.0533943</CPU>
+      <RAM>58.96539</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>182500</Time>
+      <CPU>17.5278</CPU>
+      <RAM>58.9630241</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>183000</Time>
+      <CPU>15.9039965</CPU>
+      <RAM>58.9717674</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>183500</Time>
+      <CPU>15.1194487</CPU>
+      <RAM>58.9749146</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>184000</Time>
+      <CPU>15.6225052</CPU>
+      <RAM>58.98721</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>184500</Time>
+      <CPU>15.4048328</CPU>
+      <RAM>59.00553</RAM>
+      <TCPU>54</TCPU>
+      <TMobo>49</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>185000</Time>
+      <CPU>17.3951054</CPU>
+      <RAM>59.00873</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>185500</Time>
+      <CPU>14.4510736</CPU>
+      <RAM>59.0034332</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>186000</Time>
+      <CPU>16.5105343</CPU>
+      <RAM>59.0161858</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>186500</Time>
+      <CPU>14.7358732</CPU>
+      <RAM>59.0222931</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>187000</Time>
+      <CPU>17.983284</CPU>
+      <RAM>59.02568</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>187500</Time>
+      <CPU>17.290556</CPU>
+      <RAM>59.0250359</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>188000</Time>
+      <CPU>16.1260815</CPU>
+      <RAM>59.0316544</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>188500</Time>
+      <CPU>15.6280184</CPU>
+      <RAM>59.0198174</RAM>
+      <TCPU>52</TCPU>
+      <TMobo>47</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>189000</Time>
+      <CPU>14.5605173</CPU>
+      <RAM>59.03542</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>189500</Time>
+      <CPU>18.4723454</CPU>
+      <RAM>59.034668</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>190000</Time>
+      <CPU>19.0871849</CPU>
+      <RAM>59.0334854</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>190500</Time>
+      <CPU>15.6759853</CPU>
+      <RAM>59.0461273</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>191000</Time>
+      <CPU>20.0161552</CPU>
+      <RAM>59.0503235</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>191500</Time>
+      <CPU>16.8478451</CPU>
+      <RAM>59.0572662</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>192000</Time>
+      <CPU>31.58254</CPU>
+      <RAM>59.322506</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>192500</Time>
+      <CPU>20.7238541</CPU>
+      <RAM>59.51172</RAM>
+      <TCPU>53</TCPU>
+      <TMobo>48</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>193000</Time>
+      <CPU>17.297163</CPU>
+      <RAM>59.35261</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
+    </Statistic>
+    <Statistic>
+      <Time>193500</Time>
+      <CPU>18.8569469</CPU>
+      <RAM>59.3595</RAM>
+      <TCPU>51</TCPU>
+      <TMobo>46</TMobo>
+      <Voltage>11.4</Voltage>
     </Statistic>
   </sList>
 </StatisticList>

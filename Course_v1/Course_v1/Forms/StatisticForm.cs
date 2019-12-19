@@ -21,7 +21,7 @@ namespace Course_v1
             InitializeComponent();
         }
 
-        private void ShowList(ref List<StatisticRow> rows)
+        private void ShowList(List<StatisticRow> rows)
         {
             foreach (var item in rows)
             {
@@ -61,7 +61,7 @@ namespace Course_v1
                 rows.Add(row);
             }
 
-            ShowList(ref rows);
+            ShowList(rows);
         }
 
         private void StatisticForm_Load(object sender, EventArgs e)
@@ -74,25 +74,22 @@ namespace Course_v1
 
             if (dialog.ShowDialog() == DialogResult.OK)
             {
-                switch (dialog.FilterIndex)
+
+                XmlSerializer formatter = new XmlSerializer(typeof(StatisticList));
+                try
                 {
-                    case 1:
-                        XmlSerializer formatter = new XmlSerializer(typeof(StatisticList));
-                        try
-                        {
-                            using (var file = new FileStream(dialog.FileName, FileMode.Open, FileAccess.Read))
-                            {
-                                sList = (StatisticList)formatter.Deserialize(file);
-                                MyMessageBox.ShowMessage("Statistics loaded successfully!", "Information;", MessageBoxButtons.OK);
-                                UpdateList();
-                            }
-                        }
-                        catch
-                        {
-                            MyMessageBox.ShowMessage("Information were not loaded \rsuccessfully! Please upload \ra file called \"Information\"", "Error!", MessageBoxButtons.OK);
-                        }
-                        break;
+                    using (var file = new FileStream(dialog.FileName, FileMode.Open, FileAccess.Read))
+                    {
+                        sList = (StatisticList)formatter.Deserialize(file);
+                        MyMessageBox.ShowMessage("Statistics loaded successfully!", "Information;", MessageBoxButtons.OK);
+                        UpdateList();
+                    }
                 }
+                catch
+                {
+                    MyMessageBox.ShowMessage("Information were not loaded \rsuccessfully! Please upload \ra file called \"Information\"", "Error!", MessageBoxButtons.OK);
+                }
+
             }
         }
     }
@@ -102,17 +99,11 @@ namespace Course_v1
         public float cpu { get; set; }
         public float ram{ get; set; }
         public float tcpu { get; set; }
-        public double tmobo{ get; set; }
-        public double voltage { get; set; }
+        public float tmobo{ get; set; }
+        public decimal voltage { get; set; }
 
         public StatisticRow()
         {
-            time = 0;
-            cpu = 0.0f;
-            ram = 0.0f;
-            tcpu = 0.0f;
-            tmobo = 0.0d;
-            voltage = 0.0d;
         }
     }
 }

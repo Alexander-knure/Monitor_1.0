@@ -25,11 +25,11 @@ namespace Course_v1
         bool flagInfo;
         int timerinfo;
         ManagementObjectSearcher searcherTemp = new ManagementObjectSearcher(@"root\WMI", "SELECT * FROM MSAcpi_ThermalZoneTemperature");
-        double temperatureCPU = 0.0d;
+        float temperatureCPU = 0.0f;
         
-        //ManagementObjectSearcher searcherVoltage = new ManagementObjectSearcher(@"root\CIMV2", "SELECT * FROM Win32_Battery");
-        ManagementObjectSearcher searcherVoltage = new ManagementObjectSearcher(@"root\CIMV2", "SELECT * FROM Win32_Processor ");
-        double voltage = 0.0d;
+        ManagementObjectSearcher searcherVoltage0 = new ManagementObjectSearcher(@"root\CIMV2", "SELECT * FROM Win32_Battery");
+        ManagementObjectSearcher searcherVoltage1 = new ManagementObjectSearcher(@"root\CIMV2", "SELECT * FROM Win32_Processor ");
+        decimal voltage = 0;
 
         public MainForm()
         {
@@ -60,47 +60,52 @@ namespace Course_v1
 
                 foreach (var mo in searcherTemp.Get())
                 {
-                    temperatureCPU = Convert.ToDouble(mo["CurrentTemperature"].ToString());
-                    temperatureCPU = (temperatureCPU - 2732) / 10.0d;
+                    temperatureCPU = float.Parse(mo["CurrentTemperature"].ToString());
+                    temperatureCPU = (temperatureCPU - 2732) / 10.0f;
                 }
                 s.TMobo = temperatureCPU - 5;
-                //foreach (var mo in searcherVoltage.Get())
-                //{
-                //        // voltage = Convert.ToDouble(mo["DesignVoltage"].ToString()) / 1000;
-                //        voltage = Convert.ToDouble(mo["CurrentVoltage"].ToString()) / 1000;
-                //    }
+                foreach (var mo in searcherVoltage0.Get())
+                {
+                         voltage = decimal.Parse(mo["DesignVoltage"].ToString()) / 1000;
+                }
+               //foreach (var mo in searcherVoltage1.Get())
+               //{
+               //      voltage = Convert.ToDecimal(mo["CurrentVoltage"].ToString()) / 10;
+               //}
+
+
                 s.Voltage = voltage;
 
 
                 if (Limit.isAlive == true)
                 {
-                    if ( Limit.lCPU <= s.CPU && Limit.lRAM <= s.RAM && Limit.lTCPU <= s.TCPU && 
-                        Limit.lTMobo <= s.TMobo && Limit.lVoltage <= s.Voltage && Limit.Time <= 0)
+                    if (Limit.lCPU != 0.0f || Limit.lRAM != 0.0f || Limit.lTCPU != 0.0f ||
+                        Limit.lTMobo != 0.0f || Limit.lVoltage != 0.0M)
                     {
-                        timerinfo = 10000; //10.000 sec
-                        lbThreshold.BackColor = Color.Red;
-                        lbThreshold.Text = Convert.ToString("Threshold is load:" + Limit.lTime + " " +
-                            Limit.lCPU + " " + Limit.lRAM + " " + Limit.lTCPU + " " + Limit.lTMobo + " " +
-                            Limit.lVoltage + " ");
-                        flagInfo = true;
-                        Limit.Clear();
-                    }
-                    if(Limit.lCPU <= s.CPU && Limit.lRAM <= s.RAM && Limit.lTCPU <= s.TCPU &&
-                        Limit.lTMobo <= s.TMobo && Limit.lVoltage <= s.Voltage && Limit.Time > 0)
-                    {
-                        Limit.Time -= cTimer.Interval;
-                   }
-                    if (Limit.lCPU > s.CPU || Limit.lRAM > s.RAM || Limit.lTCPU > s.TCPU ||
-                        Limit.lTMobo > s.TMobo || Limit.lVoltage > s.Voltage)
-                    {
+                        if (Limit.lCPU <= s.CPU && Limit.lRAM <= s.RAM && Limit.lTCPU <= s.TCPU &&
+                             Limit.lTMobo <= s.TMobo && Limit.lVoltage <= s.Voltage && Limit.Time < 0)
+                        {
+                            timerinfo = 30000; //30.000 sec
+                            
+                            Limit.isAlive = false;
+                            lbThreshold.Text = Limit.getThreshold();
+                            MyMessageBox.ShowMessage(Limit.getThreshold(), "Information", MessageBoxButtons.OK);
 
-                        Limit.Time = Limit.lTime;
-                    }
+                            flagInfo = true;
+                            Limit.Clear();
 
-                    //MainChart.Series.Add("limit");
-                    //MainChart.Series["limit"].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine;
-                    //MainChart.Series["limit"].Color = Color.Indigo;
-                    //MainChart.Series["limit"].Points.AddY(Limit.lCPU);
+                        }
+                        if (Limit.lCPU <= s.CPU && Limit.lRAM <= s.RAM && Limit.lTCPU <= s.TCPU &&
+                            Limit.lTMobo <= s.TMobo && Limit.lVoltage <= s.Voltage && Limit.Time > 0)
+                        {
+                            Limit.Time -= cTimer.Interval;
+                        }
+                        if (Limit.lCPU > s.CPU || Limit.lRAM > s.RAM || Limit.lTCPU > s.TCPU ||
+                            Limit.lTMobo > s.TMobo || Limit.lVoltage > s.Voltage)
+                        {
+                            Limit.Time = Limit.lTime;
+                        }
+                    }
                 }
                 if(flagInfo)
                 {
@@ -252,19 +257,13 @@ namespace Course_v1
         private void btSave_Click(object sender, EventArgs e)
         {
             XmlSerializer formatter = new XmlSerializer(typeof(StatisticList));
-            
-           // if (Directory.Exists("Log")) { 
+
                 using (FileStream fs = new FileStream("Statistic.xml", FileMode.Create))
                 {
                     formatter.Serialize(fs, statList);
 
                     MyMessageBox.ShowMessage("Statistics saved successfully!", "Information;", MessageBoxButtons.OK);
                 }
-          //  }
-          //  else
-          //  {
-          //      MyMessageBox.ShowMessage("Statistics were not saved \rsuccessfully!", "Warning;", MessageBoxButtons.OK);
-          //  }
         }
 
         private void btTimer_Click(object sender, EventArgs e)
@@ -274,8 +273,6 @@ namespace Course_v1
                 btTimer.Text = string.Format("Stop");
             else
                 btTimer.Text = string.Format("Play");
-            
-            // MyMessageBox.ShowMessage("You stop timer and monitor!", "Warning;", MessageBoxButtons.YesNo);
         }
 
         

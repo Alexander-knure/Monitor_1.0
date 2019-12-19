@@ -15,3 +15,4 @@ C:\Users\alex2\onedrive\documents\visual studio 2015\Projects\Course_v1\Course_v
 C:\Users\alex2\onedrive\documents\visual studio 2015\Projects\Course_v1\Course_v1\obj\Debug\Course_v1.Properties.Resources.resources
 C:\Users\alex2\onedrive\documents\visual studio 2015\Projects\Course_v1\Course_v1\obj\Debug\Course_v1.ThresholdForm.resources
 C:\Users\alex2\onedrive\documents\visual studio 2015\Projects\Course_v1\Course_v1\obj\Debug\Course_v1.csproj.GenerateResource.Cache
+C:\Users\alex2\onedrive\documents\visual studio 2015\Projects\Course_v1\Course_v1\obj\Debug\Course_v1.StatisticForm.resources

@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace Course_v1
 {
     public partial class ThresholdForm : MetroFramework.Forms.MetroForm
     {
+        bool flag;
+
         public ThresholdForm()
         {
             InitializeComponent();
@@ -19,6 +22,18 @@ namespace Course_v1
 
         private void Threshold_Load(object sender, EventArgs e)
         {
+            Limit.Notify += ErrorMessage;
+            this.rbtP_CPU_CheckedChanged(sender, e);
+            this.rbtP_RAM_CheckedChanged(sender, e);
+            this.rbtA_TCPU_CheckedChanged(sender, e);
+            this.rbtA_TMOBO_CheckedChanged(sender, e);
+            this.rbtA_VOLTAGE_CheckedChanged(sender, e);
+
+            //Limit.isAbsoluteCPU = false;
+            //Limit.isAbsoluteRAM = false;
+            //Limit.isAbsoluteTCPU = true;
+            //Limit.isAbsoluteTMobo = true;
+            //Limit.isAbsoluteVoltage = true;
         }
 
         private void ErrorMessage(string s)
@@ -27,161 +42,135 @@ namespace Course_v1
             "Message error",
             MessageBoxButtons.OK);
         }
-
         private void btSTimer_Click(object sender, EventArgs e)
         {
+            int resInt = 0;
+            float res = 0.0f;
+            decimal resDec = 0.0M;
 
-            if (tbTimer.Text.Length > 0)
+            flag = false;
+
+            if (tbTimer.Text.Length > 0 && int.TryParse(tbTimer.Text.ToString(), NumberStyles.Integer, CultureInfo.InvariantCulture, out resInt))
             {
-              Limit.isAlive = true;
-              Limit.lTime = int.Parse(tbTimer.Text.ToString());
-              Limit.Time = Limit.lTime;
+                Limit.lTime = resInt;
+                Limit.Time = resInt;
+                flag = true;
             }
             else
             {
-                Limit.lTime = 100;
-                Limit.Time = Limit.lTime;
+                MyMessageBox.ShowMessage("Please, enter correct timer!", "Warning", MessageBoxButtons.OK);
+                flag = false;
             }
 
-            if (tbCPU.Text.Length > 0)
+            if (tbCPU.Text.Length > 0 && float.TryParse(tbCPU.Text.ToString(), NumberStyles.Float, CultureInfo.InvariantCulture, out res))
             {
-                Limit.isAlive = true;
-                if (Limit.isAbsoluteCPU)
-                {
-                    Limit.lCPU = float.Parse(tbCPU.Text.ToString());
-                }
-                else
-                {
-                    Limit.lCPU = float.Parse(tbCPU.Text.ToString());
-                }
+                Limit.lCPU = res;
+                flag = true;
             }
-
-            if (tbRAM.Text.Length > 0)
+            else
             {
-                Limit.isAlive = true;
-                if (Limit.isAbsoluteRAM)
-                {
-                    Limit.lRAM = float.Parse(tbRAM.Text.ToString());
-                }
-                else
-                {
-                    Limit.lCPU = float.Parse(tbCPU.Text.ToString());
-                }
+                MyMessageBox.ShowMessage("Please, enter correct CPU load!", "Warning", MessageBoxButtons.OK);
+                flag = false;
             }
 
-            if (tbTCPU.Text.Length > 0)
+            if (tbRAM.Text.Length > 0 && float.TryParse(tbRAM.Text.ToString(), NumberStyles.Float, CultureInfo.InvariantCulture, out res))
             {
-                Limit.isAlive = true;
-                if (Limit.isAbsoluteTCPU)
-                {
-                    Limit.lTCPU = float.Parse(tbTCPU.Text.ToString());
-                }
-                else
-                {
-                    Limit.lCPU = float.Parse(tbCPU.Text.ToString());
-                }
+                Limit.lRAM = res;
+                flag = true;
             }
-
-            if (tbTMOBO.Text.Length > 0)
+            else
             {
-                Limit.isAlive = true;
-                if (Limit.isAbsoluteTMobo)
-                {
-                    Limit.lTMobo = double.Parse(tbTMOBO.Text.ToString());
-                }
-                else
-                {
-                    Limit.lCPU = float.Parse(tbCPU.Text.ToString());
-                }
+                MyMessageBox.ShowMessage("Please, enter correct RAM load!", "Warning", MessageBoxButtons.OK);
+                flag = false;
             }
 
-            if (tbVOLTAGE.Text.Length > 0)
+            if (tbTCPU.Text.Length > 0 && float.TryParse(tbTCPU.Text.ToString(), NumberStyles.Float, CultureInfo.InvariantCulture, out res))
             {
-                Limit.isAlive = true;
-                if (Limit.isAbsoluteVoltage)
-                {
-                    Limit.lVoltage = float.Parse(tbVOLTAGE.Text.ToString());
-                }
-                else
-                {
-                    Limit.lCPU = float.Parse(tbCPU.Text.ToString());
-                }
+                Limit.lTCPU = res;
+                flag = true;
             }
-        }
+            else
+            {
+                MyMessageBox.ShowMessage("Please, enter correct CPU temperature!", "Warning", MessageBoxButtons.OK);
+                flag = false;
+            }
 
-        private void btSCPU_Click(object sender, EventArgs e)
-        {
-          
-        }
+            if (tbTMOBO.Text.Length > 0 && float.TryParse(tbTMOBO.Text.ToString(), NumberStyles.Float, CultureInfo.InvariantCulture, out res))
+            {
+                Limit.lTMobo = res;
+                flag = true;
+            }
+            else
+            {
+                MyMessageBox.ShowMessage("Please, enter correct motherboard \rtemperature!", "Warning", MessageBoxButtons.OK);
+                flag = false;
+            }
 
-        private void btSRAM_Click(object sender, EventArgs e)
-        {
-         
-        }
-
-        private void btSTCPU_Click(object sender, EventArgs e)
-        {
-         
-        }
-
-        private void btSMOBO_Click(object sender, EventArgs e)
-        {
-         
-        }
-
-        private void btSVOLTAGE_Click(object sender, EventArgs e)
-        {
-          
+            if (tbVOLTAGE.Text.Length > 0 && float.TryParse(tbVOLTAGE.Text.ToString(), NumberStyles.Float, CultureInfo.InvariantCulture, out res))
+            {
+                Limit.lVoltage = resDec;
+                flag = true;
+            }
+            else
+            {
+                MyMessageBox.ShowMessage("Please, enter correct voltage!", "Warning", MessageBoxButtons.OK);
+                flag = false;
+            }
         }
 
         private void rbtA_CPU_CheckedChanged(object sender, EventArgs e)
         {
-            Limit.isAbsoluteCPU = false;
+            Limit.isAbsoluteCPU = true;
         }
 
         private void rbtP_CPU_CheckedChanged(object sender, EventArgs e)
         {
-            Limit.isAbsoluteCPU = true;
+            Limit.isAbsoluteCPU = false;
         }
 
         private void rbtA_RAM_CheckedChanged(object sender, EventArgs e)
         {
-            Limit.isAbsoluteRAM = false;
+            Limit.isAbsoluteRAM = true;
         }
 
         private void rbtP_RAM_CheckedChanged(object sender, EventArgs e)
         {
-            Limit.isAbsoluteRAM = true;
+            Limit.isAbsoluteRAM = false;
         }
 
         private void rbtA_TCPU_CheckedChanged(object sender, EventArgs e)
         {
-            Limit.isAbsoluteTCPU = false;
+            Limit.isAbsoluteTCPU = true;
         }
 
         private void rbtP_TCPU_CheckedChanged(object sender, EventArgs e)
         {
-            Limit.isAbsoluteTCPU = true;
+            Limit.isAbsoluteTCPU = false;
         }
 
         private void rbtA_TMOBO_CheckedChanged(object sender, EventArgs e)
         {
-            Limit.isAbsoluteTMobo = false;
+            Limit.isAbsoluteTMobo = true;
         }
 
         private void rbtP_TMOBO_CheckedChanged(object sender, EventArgs e)
         {
-            Limit.isAbsoluteTMobo = true;
+            Limit.isAbsoluteTMobo = false;
         }
 
         private void rbtA_VOLTAGE_CheckedChanged(object sender, EventArgs e)
         {
-            Limit.isAbsoluteVoltage = false;
+            Limit.isAbsoluteVoltage = true;
         }
 
         private void rbtP_VOLTAGE_CheckedChanged(object sender, EventArgs e)
         {
-            Limit.isAbsoluteVoltage = true;
+            Limit.isAbsoluteVoltage = false;
+        }
+
+        private void ThresholdForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Limit.isAlive = flag;
         }
     }
 }
