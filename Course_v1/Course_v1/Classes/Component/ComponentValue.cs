@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Course_v1
 {
-    [Serializable]
     public class ComponentValue
     {
         //CPU
@@ -77,7 +76,8 @@ namespace Course_v1
             this.OS_SystemDrive = "";
         }
     }
-    
+
+    [Serializable]
     public class ComponentValueList
     {
         public  Dictionary<string, string> cvList;
@@ -129,12 +129,6 @@ namespace Course_v1
         public List<string> GetListName()
         {
             return cvList.Select(i => i.Key).ToList();
-
-            //var listEx = new List<string>();
-            //foreach (var item in cvList)
-            //    listEx.Add(item.Key);
-
-            //return listEx;
         }
 
         public List<string> GetListValue()

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Globalization;
 
@@ -23,17 +16,9 @@ namespace Course_v1
         private void Threshold_Load(object sender, EventArgs e)
         {
             Limit.Notify += ErrorMessage;
-            this.rbtP_CPU_CheckedChanged(sender, e);
-            this.rbtP_RAM_CheckedChanged(sender, e);
             this.rbtA_TCPU_CheckedChanged(sender, e);
             this.rbtA_TMOBO_CheckedChanged(sender, e);
             this.rbtA_VOLTAGE_CheckedChanged(sender, e);
-
-            //Limit.isAbsoluteCPU = false;
-            //Limit.isAbsoluteRAM = false;
-            //Limit.isAbsoluteTCPU = true;
-            //Limit.isAbsoluteTMobo = true;
-            //Limit.isAbsoluteVoltage = true;
         }
 
         private void ErrorMessage(string s)
@@ -46,7 +31,6 @@ namespace Course_v1
         {
             int resInt = 0;
             float res = 0.0f;
-            decimal resDec = 0.0M;
 
             flag = false;
 
@@ -108,7 +92,7 @@ namespace Course_v1
 
             if (tbVOLTAGE.Text.Length > 0 && float.TryParse(tbVOLTAGE.Text.ToString(), NumberStyles.Float, CultureInfo.InvariantCulture, out res))
             {
-                Limit.lVoltage = resDec;
+                Limit.lVoltage = res;
                 flag = true;
             }
             else
@@ -116,26 +100,6 @@ namespace Course_v1
                 MyMessageBox.ShowMessage("Please, enter correct voltage!", "Warning", MessageBoxButtons.OK);
                 flag = false;
             }
-        }
-
-        private void rbtA_CPU_CheckedChanged(object sender, EventArgs e)
-        {
-            Limit.isAbsoluteCPU = true;
-        }
-
-        private void rbtP_CPU_CheckedChanged(object sender, EventArgs e)
-        {
-            Limit.isAbsoluteCPU = false;
-        }
-
-        private void rbtA_RAM_CheckedChanged(object sender, EventArgs e)
-        {
-            Limit.isAbsoluteRAM = true;
-        }
-
-        private void rbtP_RAM_CheckedChanged(object sender, EventArgs e)
-        {
-            Limit.isAbsoluteRAM = false;
         }
 
         private void rbtA_TCPU_CheckedChanged(object sender, EventArgs e)

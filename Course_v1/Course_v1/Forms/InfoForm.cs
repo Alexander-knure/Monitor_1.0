@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Xml.Serialization;
@@ -16,7 +12,6 @@ namespace Course_v1
     public partial class InfoForm : MetroFramework.Forms.MetroForm
     {
         StatisticForm sForm;
-
         ComponentValueList cvList;
         ComponentValue cn;
         ComponentValue cv;
@@ -90,7 +85,6 @@ namespace Course_v1
                 cv.RAM_BankLabel = Convert.ToString(mo["BankLabel"]);
                 ListViewItem item0 = new ListViewItem(cn.RAM_BankLabel);
                 item0.SubItems.Add(cv.RAM_BankLabel);
-
 
                 var cpctRAM = Math.Round(System.Convert.ToDouble(mo["Capacity"]) / 1024 / 1024 / 1024, 2);
                 cn.RAM_Capacity = "RAM capacity";
@@ -220,11 +214,9 @@ namespace Course_v1
             {
                 var viewItem = new ListViewItem(item.ComponentName);
                 viewItem.SubItems.Add(item.ComponentValue);
-
                 ListViewInfo.Items.Add(viewItem);
             }
         }
-
         private void UpdateList()
         {
             ListViewInfo.Items.Clear();
@@ -251,7 +243,6 @@ namespace Course_v1
 
         private void btLoad_Click(object sender, EventArgs e)
         {
-            MyMessageBox.ShowMessage("Please upload a file called \r\"Information\", otherwise an error!", "Information;", MessageBoxButtons.OK);
             var dialog = new OpenFileDialog();
             dialog.Filter = "XML files|*.xml";
 
@@ -274,9 +265,7 @@ namespace Course_v1
                     MyMessageBox.ShowMessage("Information were not loaded \rsuccessfully! Please upload \ra file called \"Information\"", "Error!", MessageBoxButtons.OK);
                 }
             }
-
         }
-
         private void btLoadStatistic_Click(object sender, EventArgs e)
         {
             if (sForm == null || sForm.IsDisposed)

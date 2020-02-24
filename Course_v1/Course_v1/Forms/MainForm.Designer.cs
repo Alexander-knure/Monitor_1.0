@@ -107,7 +107,7 @@
             this.lbCPU.ForeColor = System.Drawing.Color.White;
             this.lbCPU.Location = new System.Drawing.Point(23, 90);
             this.lbCPU.Name = "lbCPU";
-            this.lbCPU.Size = new System.Drawing.Size(89, 25);
+            this.lbCPU.Size = new System.Drawing.Size(94, 25);
             this.lbCPU.TabIndex = 3;
             this.lbCPU.Text = "CPU load";
             this.lbCPU.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -166,7 +166,7 @@
             this.lbTempMOBO.ForeColor = System.Drawing.Color.White;
             this.lbTempMOBO.Location = new System.Drawing.Point(23, 179);
             this.lbTempMOBO.Name = "lbTempMOBO";
-            this.lbTempMOBO.Size = new System.Drawing.Size(236, 25);
+            this.lbTempMOBO.Size = new System.Drawing.Size(248, 25);
             this.lbTempMOBO.TabIndex = 12;
             this.lbTempMOBO.Text = "Motherboard temperature";
             this.lbTempMOBO.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -181,7 +181,7 @@
             this.lbTempCPU.ForeColor = System.Drawing.Color.White;
             this.lbTempCPU.Location = new System.Drawing.Point(23, 149);
             this.lbTempCPU.Name = "lbTempCPU";
-            this.lbTempCPU.Size = new System.Drawing.Size(158, 25);
+            this.lbTempCPU.Size = new System.Drawing.Size(166, 25);
             this.lbTempCPU.TabIndex = 13;
             this.lbTempCPU.Text = "CPU temperature";
             this.lbTempCPU.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -196,7 +196,7 @@
             this.lbRAM.ForeColor = System.Drawing.Color.White;
             this.lbRAM.Location = new System.Drawing.Point(23, 120);
             this.lbRAM.Name = "lbRAM";
-            this.lbRAM.Size = new System.Drawing.Size(96, 25);
+            this.lbRAM.Size = new System.Drawing.Size(99, 25);
             this.lbRAM.TabIndex = 14;
             this.lbRAM.Text = "RAM load";
             this.lbRAM.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -211,7 +211,7 @@
             this.lbVoltage.ForeColor = System.Drawing.Color.White;
             this.lbVoltage.Location = new System.Drawing.Point(23, 208);
             this.lbVoltage.Name = "lbVoltage";
-            this.lbVoltage.Size = new System.Drawing.Size(77, 25);
+            this.lbVoltage.Size = new System.Drawing.Size(80, 25);
             this.lbVoltage.TabIndex = 15;
             this.lbVoltage.Text = "Voltage";
             this.lbVoltage.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -226,7 +226,7 @@
             this.lbPCPU.ForeColor = System.Drawing.Color.White;
             this.lbPCPU.Location = new System.Drawing.Point(622, 90);
             this.lbPCPU.Name = "lbPCPU";
-            this.lbPCPU.Size = new System.Drawing.Size(63, 25);
+            this.lbPCPU.Size = new System.Drawing.Size(66, 25);
             this.lbPCPU.TabIndex = 16;
             this.lbPCPU.Text = "0.00%";
             this.lbPCPU.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -241,7 +241,7 @@
             this.lbPRAM.ForeColor = System.Drawing.Color.White;
             this.lbPRAM.Location = new System.Drawing.Point(622, 120);
             this.lbPRAM.Name = "lbPRAM";
-            this.lbPRAM.Size = new System.Drawing.Size(63, 25);
+            this.lbPRAM.Size = new System.Drawing.Size(66, 25);
             this.lbPRAM.TabIndex = 17;
             this.lbPRAM.Text = "0.00%";
             this.lbPRAM.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -256,7 +256,7 @@
             this.lbPTempMOBO.ForeColor = System.Drawing.Color.White;
             this.lbPTempMOBO.Location = new System.Drawing.Point(622, 179);
             this.lbPTempMOBO.Name = "lbPTempMOBO";
-            this.lbPTempMOBO.Size = new System.Drawing.Size(63, 25);
+            this.lbPTempMOBO.Size = new System.Drawing.Size(66, 25);
             this.lbPTempMOBO.TabIndex = 19;
             this.lbPTempMOBO.Text = "0.00%";
             this.lbPTempMOBO.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -271,7 +271,7 @@
             this.lbPTempCPU.ForeColor = System.Drawing.Color.White;
             this.lbPTempCPU.Location = new System.Drawing.Point(622, 149);
             this.lbPTempCPU.Name = "lbPTempCPU";
-            this.lbPTempCPU.Size = new System.Drawing.Size(63, 25);
+            this.lbPTempCPU.Size = new System.Drawing.Size(66, 25);
             this.lbPTempCPU.TabIndex = 18;
             this.lbPTempCPU.Text = "0.00%";
             this.lbPTempCPU.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -286,7 +286,7 @@
             this.lbPVoltage.ForeColor = System.Drawing.Color.White;
             this.lbPVoltage.Location = new System.Drawing.Point(622, 208);
             this.lbPVoltage.Name = "lbPVoltage";
-            this.lbPVoltage.Size = new System.Drawing.Size(63, 25);
+            this.lbPVoltage.Size = new System.Drawing.Size(66, 25);
             this.lbPVoltage.TabIndex = 20;
             this.lbPVoltage.Text = "0.00%";
             this.lbPVoltage.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -506,7 +506,7 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(720, 750);
             this.Controls.Add(this.lbThreshold);
@@ -537,7 +537,7 @@
             this.Padding = new System.Windows.Forms.Padding(20, 60, 20, 19);
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Style = MetroFramework.MetroColorStyle.Black;
-            this.Text = "Monitor v0.9";
+            this.Text = "Monitor v1.0";
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cCPU)).EndInit();

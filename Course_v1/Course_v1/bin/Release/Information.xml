@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ComponentValue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<ComponentValue xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CPU_Name>Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz</CPU_Name>
   <CPU_NCores>4</CPU_NCores>
   <CPU_NThreads>8</CPU_NThreads>
@@ -21,8 +21,8 @@
   <OS_Location>C:\WINDOWS|\Device\Harddisk0\Partition4</OS_Location>
   <OS_BuildNumber>18362</OS_BuildNumber>
   <OS_Version>10.0.18362</OS_Version>
-  <OS_FPM>1,42 Gb</OS_FPM>
-  <OS_FVM>4,76 Gb</OS_FVM>
+  <OS_FPM>2,17 Gb</OS_FPM>
+  <OS_FVM>6,89 Gb</OS_FVM>
   <OS_SerialNumber>00326-10000-00000-AA324</OS_SerialNumber>
   <OS_SystemDrive>C:</OS_SystemDrive>
 </ComponentValue>

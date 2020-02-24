@@ -1,15 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Xml.Serialization;
-using System.Management;
 
 namespace Course_v1
 {
@@ -21,16 +14,16 @@ namespace Course_v1
             InitializeComponent();
         }
 
-        private void ShowList(List<StatisticRow> rows)
+        private void ShowList(List<Statistic> rows)
         {
             foreach (var item in rows)
             {
-                var viewItem = new ListViewItem(Convert.ToString(item.time) + " ms");
-                viewItem.SubItems.Add(Convert.ToString(item.cpu) + " %");
-                viewItem.SubItems.Add(Convert.ToString(item.ram) + " %");
-                viewItem.SubItems.Add(Convert.ToString(item.tcpu) + " °C");
-                viewItem.SubItems.Add(Convert.ToString(item.tmobo) + " °C");
-                viewItem.SubItems.Add(Convert.ToString(item.voltage) + " V");
+                var viewItem = new ListViewItem(Convert.ToString(item.Time) + " ms");
+                viewItem.SubItems.Add(Convert.ToString(item.CPU) + " %");
+                viewItem.SubItems.Add(Convert.ToString(item.RAM) + " %");
+                viewItem.SubItems.Add(Convert.ToString(item.TCPU) + " °C");
+                viewItem.SubItems.Add(Convert.ToString(item.TMobo) + " °C");
+                viewItem.SubItems.Add(Convert.ToString(item.Voltage) + " V");
 
                 ListViewInfo.Items.Add(viewItem);
             }
@@ -40,7 +33,7 @@ namespace Course_v1
         {
             ListViewInfo.Items.Clear();
 
-            var rows = new List<StatisticRow>();
+            var rows = new List<Statistic>();
             var timeList = sList.GetListTime();
             var cpuList = sList.GetListCPU();
             var ramList = sList.GetListRAM();
@@ -50,13 +43,13 @@ namespace Course_v1
 
             for (int i = 0; i < sList.GetCount(); i++)
             {
-                var row = new StatisticRow();
-                row.time = timeList[i];
-                row.cpu = cpuList[i];
-                row.ram = ramList[i];
-                row.tcpu = tcpuList[i];
-                row.tmobo = tmoboList[i];
-                row.voltage = voltageList[i];
+                var row = new Statistic();
+                row.Time = timeList[i];
+                row.CPU = cpuList[i];
+                row.RAM = ramList[i];
+                row.TCPU = tcpuList[i];
+                row.TMobo = tmoboList[i];
+                row.Voltage = voltageList[i];
 
                 rows.Add(row);
             }
@@ -67,7 +60,6 @@ namespace Course_v1
         private void StatisticForm_Load(object sender, EventArgs e)
         {
             sList = new StatisticList();
-            MyMessageBox.ShowMessage("Please upload a file called \r\"Statistic\", otherwise an error!", "Information;", MessageBoxButtons.OK);
 
             var dialog = new OpenFileDialog();
             dialog.Filter = "XML files|*.xml";
@@ -81,7 +73,7 @@ namespace Course_v1
                     using (var file = new FileStream(dialog.FileName, FileMode.Open, FileAccess.Read))
                     {
                         sList = (StatisticList)formatter.Deserialize(file);
-                        MyMessageBox.ShowMessage("Statistics loaded successfully!", "Information;", MessageBoxButtons.OK);
+                        MyMessageBox.ShowMessage("Statistics loaded successfully!", "Information", MessageBoxButtons.OK);
                         UpdateList();
                     }
                 }
@@ -89,21 +81,7 @@ namespace Course_v1
                 {
                     MyMessageBox.ShowMessage("Information were not loaded \rsuccessfully! Please upload \ra file called \"Information\"", "Error!", MessageBoxButtons.OK);
                 }
-
             }
-        }
-    }
-    public class StatisticRow
-    {
-        public int time { get; set; }
-        public float cpu { get; set; }
-        public float ram{ get; set; }
-        public float tcpu { get; set; }
-        public float tmobo{ get; set; }
-        public decimal voltage { get; set; }
-
-        public StatisticRow()
-        {
         }
     }
 }

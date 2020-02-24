@@ -34,10 +34,6 @@
             this.tbTMOBO = new MetroFramework.Controls.MetroTextBox();
             this.tbTCPU = new MetroFramework.Controls.MetroTextBox();
             this.tbVOLTAGE = new MetroFramework.Controls.MetroTextBox();
-            this.rbtA_CPU = new MetroFramework.Controls.MetroRadioButton();
-            this.rbtP_CPU = new MetroFramework.Controls.MetroRadioButton();
-            this.rbtP_RAM = new MetroFramework.Controls.MetroRadioButton();
-            this.rbtA_RAM = new MetroFramework.Controls.MetroRadioButton();
             this.rbtP_TCPU = new MetroFramework.Controls.MetroRadioButton();
             this.rbtA_TCPU = new MetroFramework.Controls.MetroRadioButton();
             this.rbtP_TMOBO = new MetroFramework.Controls.MetroRadioButton();
@@ -53,13 +49,9 @@
             this.lbTMobo = new MetroFramework.Controls.MetroLabel();
             this.lbVoltage = new MetroFramework.Controls.MetroLabel();
             this.gbMobo = new System.Windows.Forms.GroupBox();
-            this.gbCPU = new System.Windows.Forms.GroupBox();
-            this.gbRAM = new System.Windows.Forms.GroupBox();
             this.gbTCPU = new System.Windows.Forms.GroupBox();
             this.gbVoltage = new System.Windows.Forms.GroupBox();
             this.gbMobo.SuspendLayout();
-            this.gbCPU.SuspendLayout();
-            this.gbRAM.SuspendLayout();
             this.gbTCPU.SuspendLayout();
             this.gbVoltage.SuspendLayout();
             this.SuspendLayout();
@@ -259,91 +251,6 @@
             this.tbVOLTAGE.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.tbVOLTAGE.WaterMarkFont = new System.Drawing.Font("Consolas", 11F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             // 
-            // rbtA_CPU
-            // 
-            this.rbtA_CPU.AutoSize = true;
-            this.rbtA_CPU.BackColor = System.Drawing.Color.Transparent;
-            this.rbtA_CPU.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.rbtA_CPU.FontWeight = MetroFramework.MetroCheckBoxWeight.Bold;
-            this.rbtA_CPU.ForeColor = System.Drawing.Color.White;
-            this.rbtA_CPU.Location = new System.Drawing.Point(7, 21);
-            this.rbtA_CPU.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.rbtA_CPU.Name = "rbtA_CPU";
-            this.rbtA_CPU.Size = new System.Drawing.Size(84, 19);
-            this.rbtA_CPU.Style = MetroFramework.MetroColorStyle.White;
-            this.rbtA_CPU.TabIndex = 37;
-            this.rbtA_CPU.Text = "Absolute";
-            this.rbtA_CPU.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.rbtA_CPU.UseCustomBackColor = true;
-            this.rbtA_CPU.UseCustomForeColor = true;
-            this.rbtA_CPU.UseSelectable = true;
-            this.rbtA_CPU.UseStyleColors = true;
-            this.rbtA_CPU.CheckedChanged += new System.EventHandler(this.rbtA_CPU_CheckedChanged);
-            // 
-            // rbtP_CPU
-            // 
-            this.rbtP_CPU.AutoSize = true;
-            this.rbtP_CPU.Checked = true;
-            this.rbtP_CPU.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.rbtP_CPU.FontWeight = MetroFramework.MetroCheckBoxWeight.Bold;
-            this.rbtP_CPU.ForeColor = System.Drawing.Color.White;
-            this.rbtP_CPU.Location = new System.Drawing.Point(7, 46);
-            this.rbtP_CPU.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.rbtP_CPU.Name = "rbtP_CPU";
-            this.rbtP_CPU.Size = new System.Drawing.Size(101, 19);
-            this.rbtP_CPU.Style = MetroFramework.MetroColorStyle.White;
-            this.rbtP_CPU.TabIndex = 38;
-            this.rbtP_CPU.TabStop = true;
-            this.rbtP_CPU.Text = "Percentage";
-            this.rbtP_CPU.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.rbtP_CPU.UseCustomBackColor = true;
-            this.rbtP_CPU.UseCustomForeColor = true;
-            this.rbtP_CPU.UseSelectable = true;
-            this.rbtP_CPU.UseStyleColors = true;
-            this.rbtP_CPU.CheckedChanged += new System.EventHandler(this.rbtP_CPU_CheckedChanged);
-            // 
-            // rbtP_RAM
-            // 
-            this.rbtP_RAM.AutoSize = true;
-            this.rbtP_RAM.Checked = true;
-            this.rbtP_RAM.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.rbtP_RAM.FontWeight = MetroFramework.MetroCheckBoxWeight.Bold;
-            this.rbtP_RAM.ForeColor = System.Drawing.Color.White;
-            this.rbtP_RAM.Location = new System.Drawing.Point(7, 46);
-            this.rbtP_RAM.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.rbtP_RAM.Name = "rbtP_RAM";
-            this.rbtP_RAM.Size = new System.Drawing.Size(101, 19);
-            this.rbtP_RAM.Style = MetroFramework.MetroColorStyle.White;
-            this.rbtP_RAM.TabIndex = 40;
-            this.rbtP_RAM.TabStop = true;
-            this.rbtP_RAM.Text = "Percentage";
-            this.rbtP_RAM.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.rbtP_RAM.UseCustomBackColor = true;
-            this.rbtP_RAM.UseCustomForeColor = true;
-            this.rbtP_RAM.UseSelectable = true;
-            this.rbtP_RAM.UseStyleColors = true;
-            this.rbtP_RAM.CheckedChanged += new System.EventHandler(this.rbtP_RAM_CheckedChanged);
-            // 
-            // rbtA_RAM
-            // 
-            this.rbtA_RAM.AutoSize = true;
-            this.rbtA_RAM.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
-            this.rbtA_RAM.FontWeight = MetroFramework.MetroCheckBoxWeight.Bold;
-            this.rbtA_RAM.ForeColor = System.Drawing.Color.White;
-            this.rbtA_RAM.Location = new System.Drawing.Point(7, 21);
-            this.rbtA_RAM.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.rbtA_RAM.Name = "rbtA_RAM";
-            this.rbtA_RAM.Size = new System.Drawing.Size(84, 19);
-            this.rbtA_RAM.Style = MetroFramework.MetroColorStyle.White;
-            this.rbtA_RAM.TabIndex = 39;
-            this.rbtA_RAM.Text = "Absolute";
-            this.rbtA_RAM.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.rbtA_RAM.UseCustomBackColor = true;
-            this.rbtA_RAM.UseCustomForeColor = true;
-            this.rbtA_RAM.UseSelectable = true;
-            this.rbtA_RAM.UseStyleColors = true;
-            this.rbtA_RAM.CheckedChanged += new System.EventHandler(this.rbtA_RAM_CheckedChanged);
-            // 
             // rbtP_TCPU
             // 
             this.rbtP_TCPU.AutoSize = true;
@@ -533,9 +440,9 @@
             this.lbTimer.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.lbTimer.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.lbTimer.ForeColor = System.Drawing.Color.White;
-            this.lbTimer.Location = new System.Drawing.Point(63, 24);
+            this.lbTimer.Location = new System.Drawing.Point(58, 24);
             this.lbTimer.Name = "lbTimer";
-            this.lbTimer.Size = new System.Drawing.Size(61, 25);
+            this.lbTimer.Size = new System.Drawing.Size(63, 25);
             this.lbTimer.Style = MetroFramework.MetroColorStyle.Blue;
             this.lbTimer.TabIndex = 49;
             this.lbTimer.Text = "Timer";
@@ -549,9 +456,9 @@
             this.lbCPU.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.lbCPU.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.lbCPU.ForeColor = System.Drawing.Color.White;
-            this.lbCPU.Location = new System.Drawing.Point(50, 65);
+            this.lbCPU.Location = new System.Drawing.Point(42, 129);
             this.lbCPU.Name = "lbCPU";
-            this.lbCPU.Size = new System.Drawing.Size(89, 25);
+            this.lbCPU.Size = new System.Drawing.Size(94, 25);
             this.lbCPU.TabIndex = 50;
             this.lbCPU.Text = "CPU load";
             this.lbCPU.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -564,9 +471,9 @@
             this.metroLabel2.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.metroLabel2.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.metroLabel2.ForeColor = System.Drawing.Color.White;
-            this.metroLabel2.Location = new System.Drawing.Point(46, 183);
+            this.metroLabel2.Location = new System.Drawing.Point(43, 229);
             this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(96, 25);
+            this.metroLabel2.Size = new System.Drawing.Size(99, 25);
             this.metroLabel2.TabIndex = 51;
             this.metroLabel2.Text = "RAM load";
             this.metroLabel2.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -581,7 +488,7 @@
             this.lbTCPU.ForeColor = System.Drawing.Color.White;
             this.lbTCPU.Location = new System.Drawing.Point(65, 290);
             this.lbTCPU.Name = "lbTCPU";
-            this.lbTCPU.Size = new System.Drawing.Size(59, 25);
+            this.lbTCPU.Size = new System.Drawing.Size(62, 25);
             this.lbTCPU.TabIndex = 52;
             this.lbTCPU.Text = "CPU t";
             this.lbTCPU.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -596,7 +503,7 @@
             this.lbTMobo.ForeColor = System.Drawing.Color.White;
             this.lbTMobo.Location = new System.Drawing.Point(26, 397);
             this.lbTMobo.Name = "lbTMobo";
-            this.lbTMobo.Size = new System.Drawing.Size(137, 25);
+            this.lbTMobo.Size = new System.Drawing.Size(144, 25);
             this.lbTMobo.TabIndex = 53;
             this.lbTMobo.Text = "Motherboard t";
             this.lbTMobo.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -611,7 +518,7 @@
             this.lbVoltage.ForeColor = System.Drawing.Color.White;
             this.lbVoltage.Location = new System.Drawing.Point(56, 506);
             this.lbVoltage.Name = "lbVoltage";
-            this.lbVoltage.Size = new System.Drawing.Size(77, 25);
+            this.lbVoltage.Size = new System.Drawing.Size(80, 25);
             this.lbVoltage.TabIndex = 54;
             this.lbVoltage.Text = "Voltage";
             this.lbVoltage.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -630,30 +537,6 @@
             this.gbMobo.Size = new System.Drawing.Size(117, 70);
             this.gbMobo.TabIndex = 55;
             this.gbMobo.TabStop = false;
-            // 
-            // gbCPU
-            // 
-            this.gbCPU.BackColor = System.Drawing.Color.Transparent;
-            this.gbCPU.Controls.Add(this.rbtA_CPU);
-            this.gbCPU.Controls.Add(this.rbtP_CPU);
-            this.gbCPU.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.gbCPU.Location = new System.Drawing.Point(36, 93);
-            this.gbCPU.Name = "gbCPU";
-            this.gbCPU.Size = new System.Drawing.Size(117, 76);
-            this.gbCPU.TabIndex = 56;
-            this.gbCPU.TabStop = false;
-            // 
-            // gbRAM
-            // 
-            this.gbRAM.BackColor = System.Drawing.Color.Transparent;
-            this.gbRAM.Controls.Add(this.rbtP_RAM);
-            this.gbRAM.Controls.Add(this.rbtA_RAM);
-            this.gbRAM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.gbRAM.Location = new System.Drawing.Point(36, 211);
-            this.gbRAM.Name = "gbRAM";
-            this.gbRAM.Size = new System.Drawing.Size(117, 76);
-            this.gbRAM.TabIndex = 57;
-            this.gbRAM.TabStop = false;
             // 
             // gbTCPU
             // 
@@ -683,14 +566,12 @@
             // ThresholdForm
             // 
             this.AcceptButton = this.btSTimer;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(720, 630);
             this.Controls.Add(this.gbVoltage);
             this.Controls.Add(this.gbTCPU);
             this.Controls.Add(this.lbVoltage);
-            this.Controls.Add(this.gbRAM);
-            this.Controls.Add(this.gbCPU);
             this.Controls.Add(this.gbMobo);
             this.Controls.Add(this.lbTMobo);
             this.Controls.Add(this.lbTCPU);
@@ -720,10 +601,6 @@
             this.Load += new System.EventHandler(this.Threshold_Load);
             this.gbMobo.ResumeLayout(false);
             this.gbMobo.PerformLayout();
-            this.gbCPU.ResumeLayout(false);
-            this.gbCPU.PerformLayout();
-            this.gbRAM.ResumeLayout(false);
-            this.gbRAM.PerformLayout();
             this.gbTCPU.ResumeLayout(false);
             this.gbTCPU.PerformLayout();
             this.gbVoltage.ResumeLayout(false);
@@ -739,10 +616,6 @@
         private MetroFramework.Controls.MetroTextBox tbTMOBO;
         private MetroFramework.Controls.MetroTextBox tbTCPU;
         private MetroFramework.Controls.MetroTextBox tbVOLTAGE;
-        private MetroFramework.Controls.MetroRadioButton rbtA_CPU;
-        private MetroFramework.Controls.MetroRadioButton rbtP_CPU;
-        private MetroFramework.Controls.MetroRadioButton rbtP_RAM;
-        private MetroFramework.Controls.MetroRadioButton rbtA_RAM;
         private MetroFramework.Controls.MetroRadioButton rbtP_TCPU;
         private MetroFramework.Controls.MetroRadioButton rbtA_TCPU;
         private MetroFramework.Controls.MetroRadioButton rbtP_TMOBO;
@@ -758,8 +631,6 @@
         private MetroFramework.Controls.MetroLabel lbTMobo;
         private MetroFramework.Controls.MetroLabel lbVoltage;
         private System.Windows.Forms.GroupBox gbMobo;
-        private System.Windows.Forms.GroupBox gbCPU;
-        private System.Windows.Forms.GroupBox gbRAM;
         private System.Windows.Forms.GroupBox gbTCPU;
         private System.Windows.Forms.GroupBox gbVoltage;
     }

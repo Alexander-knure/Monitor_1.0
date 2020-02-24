@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-
 namespace Course_v1
 {
     static class Limit
@@ -13,11 +9,9 @@ namespace Course_v1
         private static float lram;
         private static float ltcpu;
         private static float ltmobo;
-        private static decimal lvoltage;
+        private static float lvoltage;
 
         public static bool isAlive { get; set; }
-        public static bool isAbsoluteCPU { get; set; }
-        public static bool isAbsoluteRAM { get; set; }
         public static bool isAbsoluteTCPU { get; set; }
         public static bool isAbsoluteTMobo { get; set; }
         public static bool isAbsoluteVoltage { get; set; }
@@ -26,12 +20,16 @@ namespace Course_v1
         public static event Error Notify;
 
         public static int Time { get; set; }
-        public static int lTime { get { return ltime; }
-            set {
-                if(value > 0 && value <= 10000){
+        public static int lTime
+        {
+            get { return ltime; }
+            set
+            {
+                if (value > 0 && value <= 10000)
+                {
                     ltime = value;
                 }
-                else if(value > 0)
+                else if (value > 0)
                 {
                     isAlive = false;
                     Notify?.Invoke("You entered a time less than 0s!");
@@ -41,34 +39,27 @@ namespace Course_v1
                     isAlive = false;
                     Notify?.Invoke("You entered a time great than 10s!");
                 }
-            } }
+            }
+        }
 
         public static float lCPU
         {
             get { return lcpu; }
             set
             {
-                if (isAbsoluteCPU == false)
+                if (value >= 0.0f && value <= 100.0f)
                 {
-                    if (value >= 0.0f && value <= 100.0f)
-                    {
-                        lcpu = value;
-                    }
-                    else if (value < 0.0f)
-                    {
-                        isAlive = false;
-                        Notify?.Invoke("You entered a load CPU \rless than 0%!");
-                    }
-                    else if (value > 100.0f)
-                    {
-                        isAlive = false;
-                        Notify?.Invoke("You entered a load CPU \rgreat than 100%!");
-                    }
+                    lcpu = value;
                 }
-                else
+                else if (value < 0.0f)
                 {
                     isAlive = false;
-                    Notify?.Invoke("You choose \"absolute\" \rload CPU less!");
+                    Notify?.Invoke("You entered a load CPU \rless than 0%!");
+                }
+                else if (value > 100.0f)
+                {
+                    isAlive = false;
+                    Notify?.Invoke("You entered a load CPU \rgreat than 100%!");
                 }
             }
         }
@@ -78,38 +69,29 @@ namespace Course_v1
             get { return lram; }
             set
             {
-                if (isAbsoluteRAM == false)
+                if (value >= 0.0f && value <= 100.0f)
                 {
-                    if (value >= 0.0f && value <= 100.0f)
-                    {
-                        lram = value;
-                    }
-                    else if (value < 0.0f)
-                    {
-                        isAlive = false;
-                        Notify?.Invoke("You entered a load RAM \rless than 0%!");
-                    }
-                    else if (value > 100.0f)
-                    {
-                        isAlive = false;
-                        Notify?.Invoke("You entered a load RAM \rgreat than 100%!");
-                    }
+                    lram = value;
                 }
-                else
+                else if (value < 0.0f)
                 {
                     isAlive = false;
-                    Notify?.Invoke("You choose \"absolute\" load RAM less!");
+                    Notify?.Invoke("You entered a load RAM \rless than 0%!");
+                }
+                else if (value > 100.0f)
+                {
+                    isAlive = false;
+                    Notify?.Invoke("You entered a load RAM \rgreat than 100%!");
                 }
             }
         }
-
         public static float lTCPU
         {
             get { return ltcpu; }
             set
             {
                 var min = 5.0f;//0%
-                var max = 70.0f;//100%
+                var max = 75.0f;//100%
 
                 if (isAbsoluteTCPU == false)
                 {                    
@@ -189,29 +171,28 @@ namespace Course_v1
             }
         }
 
-        public static decimal lVoltage
+        public static float lVoltage
         {
             get { return lvoltage; }
             set
             {
-
                 //if PSU = ~1/~5/~12V
                 // if battery = 11.400 V
                 // if CPU = 0.9 V
 
-                var min = 0.5M;//0%
-                var max = 15.0M;//100%
+                var min = 10.0f;//0%
+                var max = 15.0f;//100%
                 if (isAbsoluteVoltage == false)
                 {
-                    if (value >= 0 && value <= 0)
+                    if (value >= 0.0f && value <= 0.0f)
                     {
                         lvoltage = value;
                     }
-                    else if (value < 0)
+                    else if (value < 0.0f)
                     {
                         Notify?.Invoke("You entered a voltage \rless than 0%!");
                     }
-                    else if (value > 0)
+                    else if (value > 100.0f)
                     {
                         Notify?.Invoke("You entered a voltage great \rthan 100%!");
                     }
@@ -233,25 +214,13 @@ namespace Course_v1
                 }
             }
         }
-
         static Limit()
         {
             isAlive = false;
-            //Time = 0;
-            //lTime = 0;
-            //lCPU = 0.0f;
-            //lRAM = 0.0f;
-            //lTCPU = 0.0f;
-            //lTMobo = 0.0d;
-            //lVoltage = 0.0f;
-
-            isAbsoluteCPU = true;
-            isAbsoluteRAM = true;
             isAbsoluteTCPU = true;
             isAbsoluteTMobo = true;
             isAbsoluteVoltage = true;
         }
-
         public static void Clear()
         {
             Time = 0;
@@ -260,9 +229,8 @@ namespace Course_v1
             lRAM = 0.0f;
             lTCPU = 0.0f;
             lTMobo = 0.0f;
-            lVoltage = 0.0M;
+            lVoltage = 0.0f;
         }
-
         public static string getThreshold()
         {
             StringBuilder sb = new StringBuilder("Threshold:");
@@ -271,18 +239,12 @@ namespace Course_v1
 
             if (Limit.lCPU != 0.0f)
             {
-                if (Limit.isAbsoluteCPU == false)
-                    sb.Append($" CPU: {Limit.lCPU}%");
-                else
-                    sb.Append($" CPU: {Limit.lCPU}p");
+                sb.Append($" CPU: {Limit.lCPU}%");
                 countParams++;
             }
             if (Limit.lRAM != 0.0f)
             {
-                if (Limit.isAbsoluteRAM == false)
-                    sb.Append($" RAM: {Limit.lRAM}%");
-                else
-                    sb.Append($" RAM: {Limit.lRAM}p");
+                sb.Append($" RAM: {Limit.lRAM}%");
                 countParams++;
             }
             if (countParams > 2 && cFlag == false)
@@ -313,7 +275,7 @@ namespace Course_v1
             }
             if (countParams > 2 && cFlag == false)
                 sb.Append(" \r");
-            if (Limit.lVoltage != 0.0M)
+            if (Limit.lVoltage != 0.0f)
             {
                 if (Limit.isAbsoluteVoltage == false)
                     sb.Append($" Voltage: {Limit.lVoltage}%");
@@ -321,7 +283,6 @@ namespace Course_v1
                     sb.Append($" Voltage: {Limit.lVoltage}V");
                 countParams++;
             }
-
             return sb.ToString();
         }
     }
