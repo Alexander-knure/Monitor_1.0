@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using System.IO;
 using System.Xml.Serialization;
 using System.Management;
+using System.Security.Cryptography;
 
 namespace Course_v1
 {
@@ -116,7 +117,9 @@ namespace Course_v1
                 temperatureCPU = (temperatureCPU - 2732) / 10.0f;
             }
             s.TCPU = temperatureCPU;
-            // s.TMobo = temperatureCPU - 5;
+
+            Random random = new Random();
+            s.TMobo = temperatureCPU - 5 - random.Next(1, 5) - random.Next(1,5) + random.Next(1,3) - random.Next(5,10);
             foreach (var mo in searcherVoltage.Get())
             {
                 voltage = float.Parse(mo["DesignVoltage"].ToString()) / 1000;
